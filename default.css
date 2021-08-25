@@ -1,9 +1,13 @@
+/* font-family: 'Klee One', cursive;
+font-family: 'Montserrat', sans-serif;
+ */
+
 body
 {
   margin: 30px;
   font-family: 'Montserrat', sans-serif;	
-  background-color: #1f2833;
-  color: white;
+  background-color: #363538; /* Dark gray background */
+  color: #f6f6f6; /* Cream font color */
   text-align: center;
   font-size: 25px;
   margin: 0 80px;
@@ -11,11 +15,11 @@ body
 }
 
 header{
-	color: #FF379B;
+	color: #52F4D1; /* Name and class */
 }
 
 h1 {
-	font-family: 'Sacramento', cursive;
+	font-family: 'Klee One', cursive;
 	font-size: 60px;
 }
 
@@ -29,7 +33,7 @@ a {
 }
 
 a:link {
-	color: #FF379B;
+	color: #52D6F4; /* Blue */
 }
 
 /* Main */
@@ -38,11 +42,12 @@ main p {
 }
 
 main a:visited {
-	color: #FF379B;
+	color: #52D6F4;
 }
+
 main a:hover {
-	background-color: #7a7a7a;
-	color: #FF379B;
+	background-color: #8D8C8A;
+	color: #52F4D1;
 }
 main a:focus {
 	outline: thin dotted;
@@ -60,11 +65,11 @@ footer img{
   width: 88px;
 }
 footer a:visited {
-	color: #FF379B;
+	color: #52D6F4;
 }
 footer a:hover {
-	background-color: #7a7a7a;
-	color: #FF379B;
+	background-color: #8D8C8A;
+	color: #52F4D1;
 }
 footer {
   padding-top: 5px;
@@ -79,7 +84,7 @@ footer {
 }
 
 footer a {
-	color: #FF379B;
+	color: #F6f6f6;
 }
 
 
@@ -87,7 +92,7 @@ footer a {
 /* Navbar container */
 nav {
   overflow: hidden;
-  background-color: #1f2833;
+  background-color: #8d8c8a;
 }
 
 /* Links inside the navbar */
@@ -119,14 +124,14 @@ nav a {
 
 /* Add a black background color to navbar links on hover */
 nav a:hover, .dropdown:hover .dropbtn {
-  background-color: #7a7a7a;
+  background-color: #8d8c8a;
 }
 
 /* Dropdown content (hidden by default) */
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
+  background-color: #f6f6f6;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -152,33 +157,7 @@ nav a:hover, .dropdown:hover .dropbtn {
 }
 
 
-/* Table */
-table {
-	margin: auto;
-	border-color: #FF379B;
-	border-width: 5px;
-	border-style: solid;
-}
 
-td, th {
-	margin: auto;
-	border-color: #FF379B;
-	border-width: 1px;
-	border-style: solid;
-	padding: .25em;
-}
-
-
-/* Miscellaneous */
-caption {
-	font-weight: bold;
-	font-size: 1.2em;
-	padding-bottom: 10px;
-}
-
-.email {
-	text-align: center;
-}
 
 
 
