@@ -14,13 +14,17 @@ body
   
 }
 
-header{
+/* Header */
+header {
 	color: #52F4D1; /* Name and class */
 }
+
 
 h1 {
 	font-family: 'Klee One', cursive;
 	font-size: 60px;
+	background-color: #363538; /* Dark gray background */
+	color: #f6f6f6; /* Cream font color */
 }
 
 h3, ul {
@@ -35,6 +39,14 @@ a {
 a:link {
 	color: #52D6F4; /* Blue */
 }
+a:visited {
+	color: #52D6F4;
+}
+a:hover {
+	background-color: #8D8C8A;
+	color: #52F4D1;
+}
+
 
 /* Main */
 main p {
@@ -155,6 +167,8 @@ nav a:hover, .dropdown:hover .dropbtn {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+
 
 
 
