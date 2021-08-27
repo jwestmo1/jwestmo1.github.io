@@ -25,8 +25,11 @@ h1 {
 	background-color: #363538; /* Dark gray background */
 	color: #52F4D1; /* Cream font color */
 }
+h2, h3 {
+	font-family: 'Klee One', cursive;
+}
 
-h3, ul {
+ul {
 	text-align: left;
 }
 

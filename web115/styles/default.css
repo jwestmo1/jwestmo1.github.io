@@ -25,8 +25,12 @@ h1 {
 	background-color: #363538; /* Dark gray background */
 	color: #52F4D1; /* Cream font color */
 }
+h2, h3 {
+	font-family: 'Klee One', cursive;
+}
 
-h3, ul {
+
+ul {
 	text-align: left;
 }
 
@@ -167,8 +171,47 @@ nav a:hover, .dropdown:hover .dropbtn {
   display: block;
 }
 
-
-
+.brandBox {
+	background-color: 363538;
+	color: f6f6f6;
+	padding: 10px ;
+	border: 100px #f6f6f6 ;
+}
+.color1 {
+	background-color: #363538;
+	padding: 10px ;
+	border: 1px black ;
+}
+.color2 {
+	background-color: #8D8C8A;
+	padding: 10px ;
+	border: 1px black ;
+}
+.color3 {
+	background-color: #f6f6f6;
+	padding: 10px ;
+	color: black;
+	border: 1px black ;
+}
+.color4 {
+	background-color: #52d6f4;
+	padding: 10px ;
+	border: 1px black ;
+}
+.color5 {
+	background-color: #52f4d1;
+	padding: 10px ;
+	border: 1px black ;
+}
+.mainFont  {
+	font-family: 'Klee One', cursive;
+}
+.paragraphFont {
+	font-family: 'Montserrat', sans-serif;
+}
+.tagline {
+	font-family: 'Klee One', cursive;
+}
 
 
 
