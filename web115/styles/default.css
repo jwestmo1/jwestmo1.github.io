@@ -19,12 +19,11 @@ header {
 	color: #52F4D1; /* Name and class */
 }
 
-
 h1 {
 	font-family: 'Klee One', cursive;
 	font-size: 60px;
 	background-color: #363538; /* Dark gray background */
-	color: #f6f6f6; /* Cream font color */
+	color: #52F4D1; /* Cream font color */
 }
 
 h3, ul {
