@@ -212,7 +212,12 @@ nav a:hover, .dropdown:hover .dropbtn {
 .tagline {
 	font-family: 'Klee One', cursive;
 }
-
+.input {
+	background-color: #52D6F4;
+}
+.output{
+	background-color: $52F4D1;
+}
 
 
 
