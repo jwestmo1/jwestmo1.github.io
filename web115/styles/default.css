@@ -32,6 +32,7 @@ h2, h3 {
 
 ul {
 	text-align: left;
+	list-style-type: none;
 }
 
 a {
@@ -142,6 +143,10 @@ nav a:hover, .dropdown:hover .dropbtn {
   background-color: #8d8c8a;
 }
 
+
+
+
+
 /* Dropdown content (hidden by default) */
 .dropdown-content {
   display: none;
@@ -169,6 +174,44 @@ nav a:hover, .dropdown:hover .dropbtn {
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: block;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown-submenu:hover>.dropdown-content {
+    display: block;
+}
+
+.submenu {
+  display:none;
+  position:absolute;
+  background-color: #f6f6f6;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  left:100%; /* Moves submenu to right of dropmenu */
+  top:0px;
+}
+
+/* Links inside the submenu */
+.submenu_holder a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  display: block;
+  text-align: left;
+}
+
+.submenu_holder:hover .submenu {
+  display:block;
+}
+
+.submenu_holder a:hover {
+  background-color: #ddd;
+}
+
+.submenu_holder {
+  position:relative;
 }
 
 .brandBox {
