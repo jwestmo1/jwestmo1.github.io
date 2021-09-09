@@ -48,7 +48,7 @@ a:visited {
 }
 a:hover {
 	background-color: #8D8C8A;
-	color: #52F4D1;
+	color: #52F4D1; /* Green */
 }
 
 
@@ -263,6 +263,7 @@ nav a:hover, .dropdown:hover .dropbtn {
 }
 .construction {
 	text-align:center;
+	color: #52F4D1;
 }
 
 
