@@ -23,12 +23,15 @@ h1 {
 	font-family: 'Klee One', cursive;
 	font-size: 60px;
 	background-color: #363538; /* Dark gray background */
-	color: #52F4D1; /* Cream font color */
+	color: #52F4D1; /* Green font color */
 }
 h2, h3 {
 	font-family: 'Klee One', cursive;
 }
 
+h3 {
+	color: #52F4D1;
+}
 
 ul {
 	text-align: left;
