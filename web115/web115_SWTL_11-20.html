@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+	<html lang="en">
+	
+<head>
+	<meta charset="utf-8">
+	<title>Jen Westmoreland - Web 115 - SWTL</title>
+	<link rel="stylesheet" type="text/css" href="styles/default.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Klee+One&family=Montserrat&family=Nunito&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+	<header>
+		
+		<h1><a href="https://jwestmo1.github.io/index.html">Jen Westmoreland - Web 115</a></h1>
+		
+		
+	<nav>
+			<a href="https://jwestmo1.github.io/web115/web115_introduction.html">Introduction</a>
+			
+			
+			<div class="dropdown">
+				<button class="dropbtn">Table of Contents</button>
+				<div class="dropdown-content">
+					<a href="https://jwestmo1.github.io/web115/web115_contract.html">Contract</a>
+					<a href="https://jwestmo1.github.io/web115/web115_brand.html">Brand Guide</a>
+					<a href="https://jwestmo1.github.io/web115/web115_codeplay.html">Code Play</a>
+					<div class="submenu_holder">
+						<a>SWTL</a>
+							<div class="submenu">
+								<a href="https://jwestmo1.github.io/web115/web115_SWTL_1-10.html">SWTL 1-10</a>
+								<a href="https://jwestmo1.github.io/web115/web115_SWTL_11-20.html">SWTL 11-20</a>
+								<a href="https://jwestmo1.github.io/web115/web115_404page.html">SWTL 21-30</a>
+								<a href="https://jwestmo1.github.io/web115/web115_404page.html">SWTL 31-40</a>
+								<a href="https://jwestmo1.github.io/web115/web115_404page.html">SWTL 41-50</a>
+								<a href="https://jwestmo1.github.io/web115/web115_404page.html">SWTL 51-60</a>
+								<a href="https://jwestmo1.github.io/web115/web115_404page.html">SWTL 61-70</a>
+								<a href="https://jwestmo1.github.io/web115/web115_404page.html">SWTL 71-80</a>
+								<a href="https://jwestmo1.github.io/web115/web115_404page.html">SWTL 81-89</a>
+							</div>
+					</div>
+				</div>
+			</div>
+			
+	
+				
+				
+		</nav>
+		
+	</header>
+	
+	
+	
+	<main>
+		<h2>SWTL 11-20</h2>
+		<h3>Chapter 11</h3>
+		<p><b>Comparison Operators</b> - the equality operator</p>
+		<p><em>Syntax</em> - === used to compare a variable to a string, number, math expression, or another variable</p>
+		<p><em>Syntax</em> - !== is not equal to operator</p>
+		<p><em>Output</em> - var carYear = 1974; if (carYear === 1974) {</p>
+		<h3>Chapter 12</h3>
+		<p><b>if...else and else if Statements</b> - if the if statement isn't true then now something else can happen</p>
+		<p><em>Syntax</em> - var correctAns === "tail";</p>
+		<p><em>Syntax</em> - if (x === correctAns) { alert("Correct!"); }</p>
+		<p><em>Syntax</em> - else if (x === "tale") {alert("Incorrect, but close");</p>
+		<p><em>Syntax</em> - else { alert("Incorrect");}</p>
+		<h3>Chapter 13</h3>
+		<p><b>Testing Sets of Conditions</b> - AND and OR</p>
+		<p><em>Syntax</em> - && = and, || = or</p>
+		<p><em>Syntax</em> - If using &&, both conditions must be true.  If using || one condition must be true.</p>
+		<p><em>Syntax</em> - if (weight > 300 && time > 6) </p>
+		<h3>Chapter 14</h3>
+		<p><b>if Statements Nested</b> - an if statement inside an if statement</p>
+		<p><em>Syntax</em> - if (c === d) {</p>
+		<p><em>Syntax</em> -   if (x === y) {  (needs to be indented two spaces)</p>
+		<h3>Chapter 15</h3>
+		<p><b>Arrays</b> - how to make a variable with a list of values</p>
+		<p><em>Syntax</em> - var dogNames = ["Fido", "Fluffy", "Max", "Rex"];</p>
+		<p><em>Syntax</em> - Can assign mixed values of strings and numbers, etc in an array.  Also numbered starting with 0.</p>
+		<p><em>Output</em> - dogNames[2] would be Max</p>
+		<h3>Chapter 16</h3>
+		<p><b>Arrays: Adding and Removing Elements</b> - Push and Pop</p>
+		<p><em>Syntax</em> - You can declare an empty array with var dogNames = [];</p>
+		<p><em>Syntax</em> - to add to it you can say dogNames[0] = "Max";</p>
+		<p><em>Syntax</em> - pop removes the last thing on the list - Ex: If your list is Max, Rex, Fido and you say dogNames.pop() it removes Fido</p>
+		<p><em>Syntax</em> - push adds to the end of the list - Ex: If your list is Max, Rex, Fido and you say dogNames.push("Fifi", "Simba") it ads those names to the list.</p>
+		<h3>Chapter 17</h3>
+		<p><b>Arrays: Removing and Inserting Elements</b> - shift, unshift, splice, and slice</p>
+		<p><em>Syntax</em> - Shift - remove an element from the beginning of the array - Ex: dog, cat, bird.  pets.shift(); list is now cat, bird</p>
+		<p><em>Syntax</em> - Unshift - add an element to the beginning of the array - Ex: dog, cat, bird.  pets.unshift("lizard", "fish"); list is now lizard, fish, dog, cat, bird</p>
+		<p><em>Syntax</em> - Splice - add one or more elements anywhere in the array - Ex: dog, cat, bird.  Add two animals and remove cat.  pets.splice(1,1, "pig", "duck"); This
+		makes your list dog, pig, duck, bird.  First number is where to add, second number is how many to remove, the rest are what to add.  You can add without removing and remove
+		without adding</p>
+		<p><em>Syntax</em> - Slice - copy on or more consecutive elements and put them in a new array and leaves the orginial array unchanged.  Ex: dig, bird, cat, goat, pig, duck
+		var noPets = pets.slice(2,4); this moves cat and goat into an array by itself.  Use the index of where you want to start to copy and the index after your last one you
+		want to copy.</p>
+		<h3>Chapter 18</h3>
+		<p><b>for Loops</b> - a way to eliminate multiple if...else loops</p>
+		<p><em>Syntax</em> - if (var = i; var <= 100; i++) - ignore this-></p>
+		<p><em>Syntax</em> - var = i is a variable to count your iterations</p>
+		<p><em>Syntax</em> - var <= 100 is how many iterations to go through    - ignore this-></p>
+		<p><em>Syntax</em> - i++ is adding another number to your count</p>
+		<h3>Chapter 19</h3>
+		<p><b>for Loops: </b> - Flags, Boolean, array length, and loopus interuptus</p>
+		<p><em>Syntax</em> - if we use the for loop to try and find something and it prints when we find something thats's great.  If it doesn't find anything then we don't know 
+		that so we add a flag.  A flag is a boolean variable that we set to false and if what we are looking for is found then it changes the variable to true.  An if loop after
+		is set to do something if the variable remains false</p>
+		<p><em>Syntax</em> - if a match is found then to stop the loop from going once the match is found and we change the flag to true we add break; to stop the loop</p>
+		<p><em>Syntax</em> - if we don't know the amount in the array then we can make a var equal to the name of the array with the .length then take the var name and 
+		us that in your equation.  Ex: var numElements = cleanestCities.length.</p>
+		<h3>Chapter 20</h3>
+		<p><b>for Loops Nested</b> - a for loop within a for loop</p>
+		<p><em>Syntax</em> - Your for loop inside will run through completely before adding one to its increment and running the outside loop again.  You can have as many levels
+		of nesting as you want.</p>
+		<p><em>Syntax</em> - for (var i = 0; i < firstNames.length; i++) {   ---ignore this></p>
+		<p><em>Syntax</em> - for (var j = 0; j < lasstNames.length; j++) {   ---ignore this></p>
+		<p><em>Syntax</em> - fullNames.push(firstNames[i] + lastNames[j]);}}</p>
+		
+	</main>
+	
+	<footer>  
+		<p> 
+		<a href="https://github.com/jwestmo1">Github</a> | 
+		<a href="https://jwestmo1.github.io/">Github Pages</a>  | 
+		<a href="https://jwestmo1.github.io/web115_vonbriesen.html">GH Course Page</a> | 
+		<a href="https://www.khanacademy.org/profile/jwestmo1">Khan Academy</a> | 
+		<a href="https://www.codecademy.com/profiles/method6099084112">Codecademy</a> | 
+		<a href="https://www.freecodecamp.org/jwestmore1">freeCodeCamp</a> | 
+		<a href="https://jsfiddle.net/user/jwestmo1/fiddles/">JSFiddle</a> |  
+		<a href="https://profile.edx.org/u/Jen_Westmo1">Edx</a> | 
+		<a href="https://www.linkedin.com/in/jen-westmoreland-17a06b10/">LinkedIn</a></p>
+        <p>©2021 - Made with ❤️ by East-Less-Sea Designs</p>
+		<a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fjwestmo1.github.io%2Fweb115%2Fweb115_SWTL_1-10.html"><img src="images/button_html5_yellow.gif" alt="Yellow HTML5 validation button"></a>
+		<a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjwestmo1.github.io%2Fweb115%2Fweb115_SWTL_1-10.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en"><img src="images/button_css3_blue.gif" alt="Blue CSS3 validation button"></a>
+	</footer>
+
+
+</body>
+
+
+</html>
