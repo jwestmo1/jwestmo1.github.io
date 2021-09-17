@@ -1,20 +1,8 @@
-for (var i=1; i <= 20; i++)
-{
-    if (i % 15 == 0)
-        console.log("FizzBuzz");
-    else if (i % 3 == 0)
-        console.log("Fizz");
-    else if (i % 5 == 0)
-        console.log("Buzz");
-    else
-        console.log(i);
-}
-
 
 function getData() {
-  let firstName = document.getElementById('first_name').value;
-  let lastName = document.getElementById('last_name').value;
-  let middleInitial = document.getElementById('middle_initial').value;
+  let firstName = document.getElementById('firstName').value;
+  let lastName = document.getElementById('lastName').value;
+  let middleInitial = document.getElementById('middleInitial').value;
         
    document.getElementById("greeting").textContent = "Welcome to East-Less-Sea, " + firstName + " " + middleInitial + ". " + lastName + "!";
   let howHigh = prompt(`How high do you want to count, ${firstName}?`);
