@@ -27,7 +27,7 @@ function fizzBuzz(counter) {
     var newEl = document.createElement('li');
     
     //creates text node & stores in variable
-    var newText = document.createTextNode(i + ' East-Less-Sea WD - ' + fizzOrBuzz);
+    var newText = document.createTextNode(i + fizzOrBuzz);
     
     //attaches text node to new element
     newEl.appendChild(newText);
