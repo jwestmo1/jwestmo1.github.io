@@ -33,6 +33,11 @@ h3 {
 	color: #52F4D1;
 }
 
+h5 {
+	font-family: 'Klee One', cursive;
+	font-style: italic;
+}
+
 ul {
 	text-align: left;
 	list-style-type: none;
