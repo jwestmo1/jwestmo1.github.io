@@ -33,7 +33,7 @@
 								<a href="https://jwestmo1.github.io/web115/web115_SWTL_1-10.html">SWTL 1-10</a>
 								<a href="https://jwestmo1.github.io/web115/web115_SWTL_11-20.html">SWTL 11-20</a>
 								<a href="https://jwestmo1.github.io/web115/web115_SWTL_21-30.html">SWTL 21-30</a>
-								<a href="https://jwestmo1.github.io/web115/web115_404page.html">SWTL 31-40</a>
+								<a href="https://jwestmo1.github.io/web115/web115_SWTL_31-40.html">SWTL 31-40</a>
 								<a href="https://jwestmo1.github.io/web115/web115_404page.html">SWTL 41-50</a>
 								<a href="https://jwestmo1.github.io/web115/web115_404page.html">SWTL 51-60</a>
 								<a href="https://jwestmo1.github.io/web115/web115_404page.html">SWTL 61-70</a>
@@ -62,49 +62,59 @@
 	
 	
 	<main>
-		<h2>SWTL 21-30</h2>
-		<h3>Chapter 21</h3>
-		<p><b>Changing Case</b> - Changes an entry to all upper or lower case</p>
-		<p><em>Syntax</em> - </p>
-		<p><em>Output</em> - </p>
-		<h3>Chapter 22</h3>
-		<p><b></b> - </p>
-		<p><em>Syntax</em> - </p>
-		<p><em>Syntax</em> - </p>
-		<h3>Chapter 23</h3>
-		<p><b></b> - </p>
-		<p><em>Syntax</em> - </p>
-		<p><em>Syntax</em> - </p>
-		<h3>Chapter 24</h3>
-		<p><b></b> - </p>
-		<p><em>Syntax</em> - </p>
-		<h3>Chapter 25</h3>
-		<p><b></b> - </p>
-		<p><em>Operators</em> - </p>
-		<p><em>Syntax</em> - </p>
-		<h3>Chapter 26</h3>
-		<p><b></b> - </p>
-		<p><em>Syntax</em> -  </p>
-		<p><em>Syntax</em> - </p>
-		<p><em>Syntax</em> - </p>
-		<h3>Chapter 27</h3>
-		<p><b></b> - /p>
-		<p><em>Syntax</em> - </p>
-		<h3>Chapter 28</h3>
-		<p><b></b> - /p>
-		<p><em>Syntax</em> - </p>
-		<p><em>Output</em> - </p>
-		<p><em>Other Info</em> - </p>
-		<h3>Chapter 29</h3>
-		<p><b></b> - </p>
-		<p><em>Syntax</em> - </p>
-		<p><em>Output</em> - </p>
-		<h3>Chapter 30</h3>
-		<p><b></b> - </p>
-		<p><em>Syntax</em> -  </p>
-		<p><em>Syntax</em> - </p>
-		<p><em>Syntax</em> -   </p>
-		<p><em>Syntax</em> -  </p>
+		<h2>SWTL 31-40</h2>
+		<h3>Chapter 31</h3>
+		<p><b>Getting the current date and time</b> - getting date and time for your computer</p>
+		<p><em>Syntax</em> - var rightNow = newDate(); - not a string but looks like one</p>
+		<p><em>Syntax</em> - convert to string - var dateString = rightNow.toString(); - most of time you just want o extract a piece of it</p>
+		<p><em>Syntax</em> - Extract a date, but it comes back as 0-6, which is Sunday - Saturday.  So if you need the day given back then you need to code that as well</p>
+		<p><em>Syntax</em> - var dayNames = ["Sun", "Mon" etc...]; - var now = new Date(); - var theDay = now.getDay(); - var nameOfToday = dayNames[theDay];</p>
+		<h3>Chapter 32</h3>
+		<p><b>Extracting parts of the date and time</b> - how to get pieces</p>
+		<p><em>Syntax</em> - getDay() - 0 is Sunday, getMonth() - 0 is January, getDate() - day of month, getFullYear() - 2021, getHours() - 0 is midnight 11 pm is 23</p>
+		<p><em>Syntax</em> - getMinutes() - minute, getSeconds() - seconds, getMilliseconds() - milliseconds, getTime() - milliseconds since midnight, Jan 1, 1970</p>
+		<h3>Chapter 33</h3>
+		<p><b>Specifying a date and time</b> - You how can give a date and time</p>
+		<p><em>Syntax</em> - specifying a future date - var doomsday = new Date("June 30, 2035");</p>
+		<p><em>Syntax</em> - can do math with these</p>
+		<h3>Chapter 34</h3>
+		<p><b>Chaging elements in date and time</b> - change invidual elements of a date object</p>
+		<p><em>Syntax</em> - var d = newDate();  - d.setFullYear(2001); - work for all of them</p>
+		<h3>Chapter 35</h3>
+		<p><b>Functions</b> - function basics</p>
+		<p><em>Syntax</em> - Calling a block of code to do repetitive coding instead of writing it continuously</p>
+		<p><em>Syntax</em> - function tellTime{ </p>
+		<p><em>Syntax</em> - var now = newDate(); - var theHr = now.getHours(); - var theMin = now.getMinutes(); - alert ("Current time: " + theHr + ":" + theMin"); }</p>
+		<h3>Chapter 36</h3>
+		<p><b>Functions: Passing them data</b> - passing info</p>
+		<p><em>Syntax</em> - in a function the () don't have to be empty.  You can pass data this way.  You can call and pass data called an argument.</p>
+		<p><em>Syntax</em> - parameter - a variable inside the parentheses in a function statement.  Don't have to declare it as a variable.</p>
+		<p><em>Syntax</em> - can use variables, strings, and literal numbers when passing into arguments</p>
+		<h3>Chapter 37</h3>
+		<p><b>Functions: Passing data back from them</b> - how to return data</p>
+		<p><em>Syntax</em> - use return to send back data.  Can assignn a function to a variable.  Example: var totalToCharge - calcTot(79.99)</p>
+		<p><em>Syntax</em> - What that does is runs the calcTot function on the 79.99 and the returns the value from that function for the variable totalToCharge</p>
+		<p><em>Syntax</em> - return only returns one value</p>
+		<h3>Chapter 38</h3>
+		<p><b>Functions: Local vs global variables</b> - variable scope</p>
+		<p><em>Syntax</em> - global variable - declared in the main body, and not inside a function - Known and used everywhere</p>
+		<p><em>Syntax</em> - local variable - declared inside a function.  Known and used only ina  function</p>
+		<p><em>Syntax</em> - if you declare a variable implicitally in a function with using var then it is considered a global variable.  Global variables have no place in functions.</p>
+		<h3>Chapter 39</h3>
+		<p><b>Switch statements: How to start them</b> - switch basics</p>
+		<p><em>Syntax</em> - switch statement - used for testing myriad conditions.  Use instead of ling else if statements</p>
+		<p><em>Syntax</em> - switch (dayOfWk) { -variable to be tested-</p>
+		<p><em>Syntax</em> - case "Sat": - if the day of the week variabel is Saturday then do...-</p>
+		<p><em>Syntax</em> - alert("Whoopee"); - do this if equal</p>
+		<p><em>Syntax</em> - break; - break out of the cycle if equal</p>
+		<p><em>Syntax</em> - test with more items then...</p>
+		<p><em>Syntax</em> - default:</p>
+		<p><em>Syntax</em> - alert("Shoot me now!"); } - ends the case</p>
+		<h3>Chapter 40</h3>
+		<p><b>Switch statements: How to complete them</b> - more switch basics</p>
+		<p><em>Syntax</em> - if the switch is true then code executes.  If you don't add a break statement after every case then JS will execute the next cases too.</p>
+		<p><em>Syntax</em> - if no default code, add a final break statement</p>
+		
 		
 	</main>
 	
