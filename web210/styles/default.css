@@ -29,6 +29,11 @@ h2, h3 {
 	font-family: 'Klee One', cursive;
 }
 
+h5 {
+	font-family: 'Klee One', cursive;
+	font-style: italic;
+}
+
 ul {
 	text-align: left;
 }
