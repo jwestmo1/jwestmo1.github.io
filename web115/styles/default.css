@@ -83,11 +83,13 @@ li {
 	margin: 10px 0;
 }
 
-/* Footer */
-footer img{
-  height: 31px;
-  width: 88px;
+.signature {
+	font-family: 'Brush Script MT', 'Brush Script Std', cursive;
+	
 }
+
+/* Footer */
+
 footer a:visited {
 	color: #52D6F4;
 }
