@@ -39,14 +39,14 @@ a {
 }
 
 a:link {
-	color: #35ECEE; /* Blue */
+	color: #EE3735; /* Blue */
 }
 a:visited {
-	color: #35ECEE;
+	color: #EE3735;
 }
 a:hover {
 	background-color: #8D8C8A;
-	color: #35ECEE;
+	color: #EE3735;
 }
 
 
@@ -85,11 +85,11 @@ footer img{
   width: 88px;
 }
 footer a:visited {
-	color: #35ECEE;
+	color: #EE3735;
 }
 footer a:hover {
 	background-color: #363538;
-	color: #35ECEE;
+	color: #EE3735;
 }
 footer {
   padding-top: 5px;
