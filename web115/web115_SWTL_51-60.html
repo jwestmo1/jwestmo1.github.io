@@ -27,6 +27,8 @@
 					<a href="https://jwestmo1.github.io/web115/web115_contract.html">Contract</a>
 					<a href="https://jwestmo1.github.io/web115/web115_brand.html">Brand Guide</a>
 					<a href="https://jwestmo1.github.io/web115/web115_codeplay.html">Code Play</a>
+					<a href="https://jwestmo1.github.io/web115/one_page_js/index.html">One Page JS</a>
+
 					<div class="submenu_holder">
 						<a>SWTL</a>
 							<div class="submenu">
@@ -64,57 +66,59 @@
 	
 	
 	<main>
-		<h2>SWTL 41-50</h2>
-		<h3>Chapter 41</h3>
-		<p><b>While Loops</b> - While something is happening, do something</p>
-		<p><em>Syntax</em> - </p>
-		<p><em>Syntax</em> - </p>
-		<p><em>Syntax</em> - </p>
-		<h3>Chapter 42</h3>
-		<p><b></b> </p>
-		<p><em>Syntax</em> - </p>
-		<p><em>Syntax</em> - </p>
-		<p><em>Syntax</em> - </p>
-		<h3>Chapter 43</h3>
-		<p><b></b> </p>
-		<p><em>Syntax</em> - </p>
-		<p><em>Syntax</em> - </p>
-		<p><em>Syntax</em> - </p>
-		<h3>Chapter 44</h3>
-		<p><b></b> </p>
-		<p><em>Syntax</em> - </p>	
-		<p><em>Syntax</em> - </p>
-		<p><em>Syntax</em> - </p>
-		<h3>Chapter 45</h3>
-		<p><b></b> </p>
-		<p><em>Syntax</em> - </p>
-		<p><em>Syntax</em> - </p> 		
-		<p><em>Syntax</em> - </p>
-		<h3>Chapter 46</h3>
-		<p><b></b> </p>
-		<p><em>Syntax</em> -  </p>
-		<p><em>Syntax</em> - </p>
-		<p><em>Syntax</em> - </p>
-		<h3>Chapter 47</h3>
-		<p><b></b> </p>
-		<p><em>Syntax</em> - </p>
-		<p><em>Syntax</em> - </p>
-		<p><em>Syntax</em> - </p>
-		<h3>Chapter 48</h3>
-		<p><b></b> </p>
-		<p><em>Syntax</em> - </p>
-		<p><em>Syntax</em> - </p>
-		<p><em>Syntax</em> - </p>
-		<h3>Chapter 49</h3>
-		<p><b></b> </p>
-		<p><em>Syntax</em> - </p>
-		<p><em>Syntax</em> - </p>
-		<h3>Chapter 50</h3>
-		<p><b></b> </p>
-		<p><em>Syntax</em> -  </p>
-		<p><em>Syntax</em> - </p>
-		<p><em>Syntax</em> -   </p>
-		<p><em>Syntax</em> -  </p>
+		<h2>SWTL 51-60</h2>
+		<h3>Chapter 51</h3>
+		<p><b>Reading and Setting Paragraph Text</b> - Having a paragraph expand when click more is selected</p>
+		<p><em>Syntax</em> - onClick calls a function which displays the variable that the long paragraph was assigned to</p>
+		<p><em>Syntax</em> - This can also be used with any HTML tags such as a list</p>
+		<p><em>Syntax</em> - Can also be used to assign the HTML within an element to a variable</p>
+		<h3>Chapter 52</h3>
+		<p><b>Manipulating Images and Text</b> - Change a class or not</p>
+		<p><em>Syntax</em> - Change a class bu calling a function on click and adding .className = "hidden"</p>
+		<p><em>Syntax</em> - Hidden goes to css that has the display of none</p>
+		<p><em>Syntax</em> - To change it temporarily instead of = use += " big" - Most have space before class name to work</p>
+		<h3>Chapter 53</h3>
+		<p><b>Swapping Images</b> - Such as a before and after picture - inline</p>
+		<p><em>Syntax</em> - Use onMouseover to call a function</p>
+		<p><em>Syntax</em> - Make it more general purpose by using before and after id's isntead of specific pic</p>
+		<p><em>Syntax</em> - document.getElementById("before") .src = "after-pic.jpg"</p>
+		<h3>Chapter 54</h3>
+		<p><b>Swapping Images and Setting Classes</b> Change classes to swap images</p>
+		<p><em>Syntax</em> - Break down the previous code into two steps</p>	
+		<p><em>Syntax</em> - var pic = document.getElementById("before") .src;</p>
+		<p><em>Syntax</em> - pic.src = "after-pic.jpg";</p>
+		<h3>Chapter 55</h3>
+		<p><b>Setting Styles</b> - How to set styles on top of styles</p>
+		<p><em>Syntax</em> - Use - .style.fontSize = "2em"</p>
+		<p><em>Syntax</em> - Or - .style.visibility = "hidden"</p> 		
+		<p><em>Syntax</em> - Or any other ones to preserve the formatting you already have and add on top of it</p>
+		<h3>Chapter 56</h3>
+		<p><b>Target All Elements by Tag Name</b> - How to do something to all elements via a tag</p>
+		<p><em>Syntax</em> - Find all the paragraphs and assign them to a variable</p>
+		<p><em>Syntax</em> - var par = document.getElementsByTagName("p")</p>
+		<p><em>Syntax</em> - Then assign whatever you want to the par var</p>
+		<h3>Chapter 57</h3>
+		<p><b>Target Some Elements by Tag Name</b> - How to do something to some elements via a tag</p>
+		<p><em>Syntax</em> - It adds a level to what you are filtering by.  Instead of all paragraphs, how about paragraphs within a div that has the ID of "rules"</p>
+		<p><em>Syntax</em> - var e = document.getElementsById("rules")</p>
+		<p><em>Syntax</em> - var paragraphs = e.getElementsByTagName("p")</p>
+		<h3>Chapter 58</h3>
+		<p><b>The DOM</b></p>
+		<p><em>Syntax</em> - getElementsById - only have access to elements with ID's</p>
+		<p><em>Syntax</em> - getElementsByTagName - good for big changes</p>
+		<p><em>Syntax</em> - The DOM is a hierarchy chart that has each box called a node</p>
+		<h3>Chapter 59</h3>
+		<p><b>The DOM: Parents and Children</b></p>
+		<p><em>Syntax</em> - You can designate any node in the DOM to say the node is the xth child of a particular parent</p>
+		<p><em>Syntax</em> - Child node - child of the node that encloses it.  Example: body is child of HTML</p>
+		<p><em>Syntax</em> - Siblings - would be head and body</p>
+		<h3>Chapter 60</h3>
+		<p><b>The DOM: Finding Children</b></p>
+		<p><em>Syntax</em> - To read the contents to the last paragraph: var p = document.getElementsByTagName("p")</p>
+		<p><em>Syntax</em> - var contents = p[4].innerHTML - reads the fifth paragraph in the array you made</p>
+		<p><em>Syntax</em> - OR - narrow to contents in second div - var div = document.getElementsById("ny")</p>
+		<p><em>Syntax</em> - var p  = div.document.getElementsByTagName("p")</p>
+		<p><em>Syntax</em> - var contents = p[1].innerHTML</p>
 		
 	</main>
 	
