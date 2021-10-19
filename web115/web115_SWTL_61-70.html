@@ -38,7 +38,7 @@
 								<a href="https://jwestmo1.github.io/web115/web115_SWTL_31-40.html">SWTL 31-40</a>
 								<a href="https://jwestmo1.github.io/web115/web115_SWTL_41-50.html">SWTL 41-50</a>
 								<a href="https://jwestmo1.github.io/web115/web115_SWTL_51-60.html">SWTL 51-60</a>
-								<a href="https://jwestmo1.github.io/web115/web115_404page.html">SWTL 61-70</a>
+								<a href="https://jwestmo1.github.io/web115/web115_SWTL_61-70.html">SWTL 61-70</a>
 								<a href="https://jwestmo1.github.io/web115/web115_404page.html">SWTL 71-80</a>
 								<a href="https://jwestmo1.github.io/web115/web115_404page.html">SWTL 81-89</a>
 							</div>
@@ -66,57 +66,63 @@
 	
 	
 	<main>
-		<h2>SWTL 41-50</h2>
-		<h3>Chapter 41</h3>
-		<p><b>While Loops</b> - While something is happening, do something</p>
-		<p><em>Syntax</em> - </p>
-		<p><em>Syntax</em> - </p>
-		<p><em>Syntax</em> - </p>
-		<h3>Chapter 42</h3>
-		<p><b></b> </p>
-		<p><em>Syntax</em> - </p>
-		<p><em>Syntax</em> - </p>
-		<p><em>Syntax</em> - </p>
-		<h3>Chapter 43</h3>
-		<p><b></b> </p>
-		<p><em>Syntax</em> - </p>
-		<p><em>Syntax</em> - </p>
-		<p><em>Syntax</em> - </p>
-		<h3>Chapter 44</h3>
-		<p><b></b> </p>
-		<p><em>Syntax</em> - </p>	
-		<p><em>Syntax</em> - </p>
-		<p><em>Syntax</em> - </p>
-		<h3>Chapter 45</h3>
-		<p><b></b> </p>
-		<p><em>Syntax</em> - </p>
-		<p><em>Syntax</em> - </p> 		
-		<p><em>Syntax</em> - </p>
-		<h3>Chapter 46</h3>
-		<p><b></b> </p>
-		<p><em>Syntax</em> -  </p>
-		<p><em>Syntax</em> - </p>
-		<p><em>Syntax</em> - </p>
-		<h3>Chapter 47</h3>
-		<p><b></b> </p>
-		<p><em>Syntax</em> - </p>
-		<p><em>Syntax</em> - </p>
-		<p><em>Syntax</em> - </p>
-		<h3>Chapter 48</h3>
-		<p><b></b> </p>
-		<p><em>Syntax</em> - </p>
-		<p><em>Syntax</em> - </p>
-		<p><em>Syntax</em> - </p>
-		<h3>Chapter 49</h3>
-		<p><b></b> </p>
-		<p><em>Syntax</em> - </p>
-		<p><em>Syntax</em> - </p>
-		<h3>Chapter 50</h3>
-		<p><b></b> </p>
-		<p><em>Syntax</em> -  </p>
-		<p><em>Syntax</em> - </p>
-		<p><em>Syntax</em> -   </p>
-		<p><em>Syntax</em> -  </p>
+		<h2>SWTL 61-70</h2>
+		<h3>Chapter 61</h3>
+		<p><b>The DOM - Junk artifacts and nodeType</b> - how some browsers see space as text nodes</p>
+		<p><em>Syntax</em> - To not have stupid broswers you can put your closing tag on the next line.  Ex: <'html' </p>
+		<p><em>Syntax</em> - ><'head'>  ignore the ''</p>
+		<p><em>Syntax</em> - Or clean out junk from the DOM using minifier program</p>
+		<h3>Chapter 62</h3>
+		<p><b>The DOM - More ways to target elements</b> - how to get at elements</p>
+		<p><em>Syntax</em> - You can use firstChild and lastChild to find the first and last in the array</p>
+		<p><em>Syntax</em> - Ex: var targetNode = parentNode.firstChild</p>
+		<p><em>Syntax</em> - You can use nextSibling and previousSibling - if they is no next or previous Null is returned</p>
+		<h3>Chapter 63</h3>
+		<p><b>The DOM - Getting a target's name</b> - how to get a node name</p>
+		<p><em>Syntax</em> - var target = parent.firstChild;</p>
+		<p><em>Syntax</em> - nName = target.nodeName; </p>
+		<p><em>Syntax</em> - Returns P if it is a paragraph tag, DIV if a div tag, etc - always in all-caps</p>
+		<h3>Chapter 64</h3>
+		<p><b>The DOM - Counting elements</b> - find out how many in your collection</p>
+		<p><em>Syntax</em> - var numberPics = 0; varhowManyKids = nodeList.length; </p>	
+		<p><em>Syntax</em> - for (var i = 0; i 'less than symbol' howManyKids; i++ { </p>
+		<p><em>Syntax</em> - if (nodelist[i].nodeName.toLowerCase() === "img") {numberPics++}}</p>
+		<h3>Chapter 65</h3>
+		<p><b>The DOM - Attributes</b> - how to find attributes</p>
+		<p><em>Syntax</em> - div id="p1" - id is an attribute of div</p>
+		<p><em>Syntax</em> - var target = document.getElementById("p1")</p> 		
+		<p><em>Syntax</em> - var hasClass = target.hasAttribute("class")</p>
+		<h3>Chapter 66</h3>
+		<p><b>The DOM - Attributes and name values</b> - how to make a collection of attributes</p>
+		<p><em>Syntax</em> - to find number of list in collection</p>
+		<p><em>Syntax</em> - var numOfItems = document.getElementById("p1).attributes.length</p>
+		<p><em>Syntax</em> - Node Name - var nName = list[2].nodeName; OR node value - var nValue = list[2].nodeValue;</p>
+		<h3>Chapter 67</h3>
+		<p><b>The DOM - Adding nodes</b> - creat a node, give it an attriubute, and fill it with content</p>
+		<p><em>Syntax</em> - create parapgraph node - var nodeToAdd = document.createElement("p")</p>
+		<p><em>Syntax</em> - add an attribute - nodeToAdd.setAttribute("class","regular")</p>
+		<p><em>Syntax</em> - add some text - var newTxt = document.createTextNode("Hello!")</p>
+		<p><em>Syntax</em> - add the text to the paragraph element - nodeToAdd.appendChild(newTxt)</p>
+		<h3>Chapter 68</h3>
+		<p><b>The DOM - Inserting nodes</b> - insert the node you created</p>
+		<p><em>Syntax</em> - var parentDiv - document.getElementById("div1")</p>
+		<p><em>Syntax</em> - var newPara = document.createElement("p")</p>
+		<p><em>Syntax</em> - var t = document.createTextNode("Hello World")</p>
+		<p><em>Syntax</em> - newPara.appendChild(t)</p>
+		<p><em>Syntax</em> - parentDiv.appendChild(newPara) - Adds it last</p>
+		<p><em>Syntax</em> - Insert before first paragraph - paragraph1 = parentDiv.firstChild - parentDiv.insertBefore(newPara, paragraph1)</p>
+		<p><em>Syntax</em> - Insert before next sibling - var target = parentDiv.childNodes[1] - parentDiv.insertBefore(newE, target.nextSibling)</p>
+		<h3>Chapter 69</h3>
+		<p><b>Objects</b> - instead of making a variable for each item in a graph make an object with properties</p>
+		<p><em>Syntax</em> - Properties are variables attached to an object</p>
+		<p><em>Syntax</em> - var plan1 = { name: "Basic", price: 3.99, space: 100, pages: 10 }</p>
+		<h3>Chapter 70</h3>
+		<p><b>Objects: properties</b>- change the value of the object's properties</p>
+		<p><em>Syntax</em> - To change the cost of the 3rd deal - deal3.cost = 79.95</p>
+		<p><em>Syntax</em> - Can assign, string, number, array, boolean or new property</p>
+		<p><em>Syntax</em> - Can create an object with no properties - var deal4 = {};</p>
+		<p><em>Syntax</em> - Add a property and not define it deal3.market = undefined; </p>
+		<p><em>Syntax</em> - Delete a property of an object - delete deal3.market;</p>
 		
 	</main>
 	
@@ -132,8 +138,8 @@
 		<a href="https://profile.edx.org/u/Jen_Westmo1">Edx</a> | 
 		<a href="https://www.linkedin.com/in/jen-westmoreland-17a06b10/">LinkedIn</a></p>
         <p>©2021 - Made with ❤️ by East-Less-Sea Designs</p>
-		<a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fjwestmo1.github.io%2Fweb115%2Fweb115_SWTL_1-10.html"><img src="images/button_html5_yellow.gif" alt="Yellow HTML5 validation button"></a>
-		<a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjwestmo1.github.io%2Fweb115%2Fweb115_SWTL_1-10.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en"><img src="images/button_css3_blue.gif" alt="Blue CSS3 validation button"></a>
+		<a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fjwestmo1.github.io%2Fweb115%2Fweb115_SWTL_51-60.html"><img src="images/button_html5_yellow.gif" alt="Yellow HTML5 validation button"></a>
+		<a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjwestmo1.github.io%2Fweb115%2Fweb115_SWTL_51-60.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en"><img src="images/button_css3_blue.gif" alt="Blue CSS3 validation button"></a>
 	</footer>
 
 
