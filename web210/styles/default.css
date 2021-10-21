@@ -16,14 +16,14 @@ body
 
 /* Header */
 header {
-	color: #EE3735; /* Name and class */
+	color: #52F4D1; /* Name and class */
 }
 
 h1 {
 	font-family: 'Klee One', cursive;
 	font-size: 60px;
 	background-color: #363538; /* Light gray background */
-	color: #ABF7F8; /* light blue font color */
+	color: #EE3735; /* light blue font color */
 }
 h2, h3 {
 	font-family: 'Klee One', cursive;
