@@ -19,6 +19,10 @@ header {
 	color: #52F4D1; /* Name and class */
 }
 
+header a{
+	color: #EE3735; /* Name and class */
+}
+
 h1 {
 	font-family: 'Klee One', cursive;
 	font-size: 60px;
