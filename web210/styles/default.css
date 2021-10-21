@@ -5,18 +5,18 @@ font-family: 'Montserrat', sans-serif;
 body
 {
   margin: 30px;
-  font-family: 'Montserrat', sans-serif;	
+  font-family: 'Montserrat', sans-serif;
   background-color: #363538; /* Light gray background */
   color: #ABF7F8; /* light blue font color */
   text-align: center;
   font-size: 25px;
   margin: 0 80px;
-  
+
 }
 
 /* Header */
 header {
-	color: #52F4D1; /* Name and class */
+	color: #EE3735; /* Name and class */
 }
 
 h1 {
@@ -80,7 +80,7 @@ li {
 
 .signature {
 	font-family: 'Brush Script MT', 'Brush Script Std', cursive;
-	
+
 }
 
 
@@ -224,10 +224,3 @@ nav a:hover, .dropdown:hover .dropbtn {
 .tagline {
 	font-family: 'Klee One', cursive;
 }
-
-
-
-
-
-
-
