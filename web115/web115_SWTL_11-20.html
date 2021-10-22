@@ -1,11 +1,12 @@
-
 <!DOCTYPE html>
-<html lang = "en">
+<html lang="en">
+
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>East-Less-Sea Designs | Home</title>
-<link rel="stylesheet" type="text/css" href="styles/default.css"/>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>East-Less-Sea Designs | Home</title>
+	<link rel="stylesheet" type="text/css" href="styles/default.css" />
 </head>
+
 <body>
 
 
@@ -28,16 +29,16 @@
 		<h3>Chapter 13</h3>
 		<p><b>Testing Sets of Conditions</b> - AND and OR</p>
 		<p><em>Syntax</em> - && = and, || = or</p>
-		<p><em>Syntax</em> - If using &&, both conditions must be true.  If using || one condition must be true.</p>
+		<p><em>Syntax</em> - If using &&, both conditions must be true. If using || one condition must be true.</p>
 		<p><em>Syntax</em> - if (weight > 300 && time > 6) </p>
 		<h3>Chapter 14</h3>
 		<p><b>if Statements Nested</b> - an if statement inside an if statement</p>
 		<p><em>Syntax</em> - if (c === d) {</p>
-		<p><em>Syntax</em> -   if (x === y) {  (needs to be indented two spaces)</p>
+		<p><em>Syntax</em> - if (x === y) { (needs to be indented two spaces)</p>
 		<h3>Chapter 15</h3>
 		<p><b>Arrays</b> - how to make a variable with a list of values</p>
 		<p><em>Syntax</em> - var dogNames = ["Fido", "Fluffy", "Max", "Rex"];</p>
-		<p><em>Syntax</em> - Can assign mixed values of strings and numbers, etc in an array.  Also numbered starting with 0.</p>
+		<p><em>Syntax</em> - Can assign mixed values of strings and numbers, etc in an array. Also numbered starting with 0.</p>
 		<p><em>Output</em> - dogNames[2] would be Max</p>
 		<h3>Chapter 16</h3>
 		<p><b>Arrays: Adding and Removing Elements</b> - Push and Pop</p>
@@ -47,34 +48,38 @@
 		<p><em>Syntax</em> - push adds to the end of the list - Ex: If your list is Max, Rex, Fido and you say dogNames.push("Fifi", "Simba") it ads those names to the list.</p>
 		<h3>Chapter 17</h3>
 		<p><b>Arrays: Removing and Inserting Elements</b> - shift, unshift, splice, and slice</p>
-		<p><em>Syntax</em> - Shift - remove an element from the beginning of the array - Ex: dog, cat, bird.  pets.shift(); list is now cat, bird</p>
-		<p><em>Syntax</em> - Unshift - add an element to the beginning of the array - Ex: dog, cat, bird.  pets.unshift("lizard", "fish"); list is now lizard, fish, dog, cat, bird</p>
-		<p><em>Syntax</em> - Splice - add one or more elements anywhere in the array - Ex: dog, cat, bird.  Add two animals and remove cat.  pets.splice(1,1, "pig", "duck"); This
-		makes your list dog, pig, duck, bird.  First number is where to add, second number is how many to remove, the rest are what to add.  You can add without removing and remove
-		without adding</p>
-		<p><em>Syntax</em> - Slice - copy on or more consecutive elements and put them in a new array and leaves the orginial array unchanged.  Ex: dig, bird, cat, goat, pig, duck
-		var noPets = pets.slice(2,4); this moves cat and goat into an array by itself.  Use the index of where you want to start to copy and the index after your last one you
-		want to copy.</p>
+		<p><em>Syntax</em> - Shift - remove an element from the beginning of the array - Ex: dog, cat, bird. pets.shift(); list is now cat, bird</p>
+		<p><em>Syntax</em> - Unshift - add an element to the beginning of the array - Ex: dog, cat, bird. pets.unshift("lizard", "fish"); list is now lizard, fish, dog, cat, bird</p>
+		<p><em>Syntax</em> - Splice - add one or more elements anywhere in the array - Ex: dog, cat, bird. Add two animals and remove cat. pets.splice(1,1, "pig", "duck"); This
+			makes your list dog, pig, duck, bird. First number is where to add, second number is how many to remove, the rest are what to add. You can add without removing and remove
+			without adding</p>
+		<p><em>Syntax</em> - Slice - copy on or more consecutive elements and put them in a new array and leaves the orginial array unchanged. Ex: dig, bird, cat, goat, pig, duck
+			var noPets = pets.slice(2,4); this moves cat and goat into an array by itself. Use the index of where you want to start to copy and the index after your last one you
+			want to copy.</p>
 		<h3>Chapter 18</h3>
 		<p><b>for Loops</b> - a way to eliminate multiple if...else loops</p>
-		<p><em>Syntax</em> - if (var = i; var <= 100; i++) - ignore this-></p>
+		<p><em>Syntax</em> - if (var = i; var <= 100; i++) - ignore this->
+		</p>
 		<p><em>Syntax</em> - var = i is a variable to count your iterations</p>
-		<p><em>Syntax</em> - var <= 100 is how many iterations to go through    - ignore this-></p>
+		<p><em>Syntax</em> - var <= 100 is how many iterations to go through - ignore this->
+		</p>
 		<p><em>Syntax</em> - i++ is adding another number to your count</p>
 		<h3>Chapter 19</h3>
 		<p><b>for Loops: </b> - Flags, Boolean, array length, and loopus interuptus</p>
-		<p><em>Syntax</em> - if we use the for loop to try and find something and it prints when we find something that's great.  If it doesn't find anything then we don't know
-		that so we add a flag.  A flag is a boolean variable that we set to false and if what we are looking for is found then it changes the variable to true.  An if loop after
-		is set to do something if the variable remains false</p>
+		<p><em>Syntax</em> - if we use the for loop to try and find something and it prints when we find something that's great. If it doesn't find anything then we don't know
+			that so we add a flag. A flag is a boolean variable that we set to false and if what we are looking for is found then it changes the variable to true. An if loop after
+			is set to do something if the variable remains false</p>
 		<p><em>Syntax</em> - if a match is found then to stop the loop from going once the match is found and we change the flag to true we add break; to stop the loop</p>
 		<p><em>Syntax</em> - if we don't know the amount in the array then we can make a var equal to the name of the array with the .length then take the var name and
-		us that in your equation.  Ex: var numElements = cleanestCities.length.</p>
+			us that in your equation. Ex: var numElements = cleanestCities.length.</p>
 		<h3>Chapter 20</h3>
 		<p><b>for Loops Nested</b> - a for loop within a for loop</p>
-		<p><em>Syntax</em> - Your for loop inside will run through completely before adding one to its increment and running the outside loop again.  You can have as many levels
-		of nesting as you want.</p>
-		<p><em>Syntax</em> - for (var i = 0; i < firstNames.length; i++) {   ---ignore this></p>
-		<p><em>Syntax</em> - for (var j = 0; j < lastNames.length; j++) {   ---ignore this></p>
+		<p><em>Syntax</em> - Your for loop inside will run through completely before adding one to its increment and running the outside loop again. You can have as many levels
+			of nesting as you want.</p>
+		<p><em>Syntax</em> - for (var i = 0; i < firstNames.length; i++) { ---ignore this>
+		</p>
+		<p><em>Syntax</em> - for (var j = 0; j < lastNames.length; j++) { ---ignore this>
+		</p>
 		<p><em>Syntax</em> - fullNames.push(firstNames[i] + lastNames[j]);}}</p>
 
 	</main>

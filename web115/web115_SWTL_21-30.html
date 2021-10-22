@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<html lang = "en">
+<html lang="en">
+
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>East-Less-Sea Designs | Home</title>
-<link rel="stylesheet" type="text/css" href="styles/default.css"/>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>East-Less-Sea Designs | Home</title>
+	<link rel="stylesheet" type="text/css" href="styles/default.css" />
 </head>
+
 <body>
 
 
@@ -20,40 +22,40 @@
 		<p><em>Syntax</em> - cityToCheck = cityToCheck.toUpperCase(); - Then you have apples to apples</p>
 		<h3>Chapter 22</h3>
 		<p><b>Strings: Measuring length and extracting parts</b> - Using slice to get parts of input</p>
-		<p><em>Syntax</em> - var firstChar = cityToCheck.slice(0,1); - leaves cityToCheck alone but removes first letter.  first number in () is the first letter in the index
-		and the 1 is the number to start out so (0,1) gets you the first letter</p>
+		<p><em>Syntax</em> - var firstChar = cityToCheck.slice(0,1); - leaves cityToCheck alone but removes first letter. first number in () is the first letter in the index
+			and the 1 is the number to start out so (0,1) gets you the first letter</p>
 		<p><em>Syntax</em> - var otherChar = cityToCheck.slice(1); - One shows you where in the index to start and nothing else is specified so it goes to the end</p>
 		<p><em>Syntax</em> - then you can turn the first letter into upper-case and the rest into lower-case ad concat the two together under a new var to have the casing correct.</p>
 		<h3>Chapter 23</h3>
 		<p><b>Strings: Finding segments</b> - How to locate a string segment(phrase)</p>
-		<p><em>Syntax</em> - var firstChar = text.indexOf("World War II"); - Looks for anf finds the first instance of this phrase so you can replace it with another.  Can make a
-		loop to keep replacing multiple times.</p>
+		<p><em>Syntax</em> - var firstChar = text.indexOf("World War II"); - Looks for anf finds the first instance of this phrase so you can replace it with another. Can make a
+			loop to keep replacing multiple times.</p>
 		<p><em>Syntax</em> - text.lastIndexOf - Finds last instance of string</p>
 		<h3>Chapter 24</h3>
 		<p><b>Strings: Finding a character at a location</b> - How to find the first character</p>
 		<p><em>Syntax</em> - firstName.slice(0,1) works and so does firstName.charAt(0);</p>
-		<p><em>Syntax</em> - var lastChar = name.charAt(name.length - 1); Finds the last charcater in a dtring.  charAt can only ID a character.  It can't change it.</p>
+		<p><em>Syntax</em> - var lastChar = name.charAt(name.length - 1); Finds the last charcater in a dtring. charAt can only ID a character. It can't change it.</p>
 		<h3>Chapter 25</h3>
 		<p><b>Strings: Replacing characters</b> - replace method</p>
 		<p><em>Syntax</em> - var newText = text.replce("World War II", "the Second World War"); first string is what is to be replaced and the second is what to replace it with.
-		Only for first instance</p>
+			Only for first instance</p>
 		<p><em>Syntax</em> - global replace - var newText = text.replce(/World War II/g, "the Second World War"); Replace quotes on phrase to replace with / and add a g after the 2nd one</p>
 		<h3>Chapter 26</h3>
-		<p><b>Rounding Numbers</b> - var numOfStars = Math.round(scoreAvg); - Math must be capitalized.  Can assign to new var or replace old variable</p>
+		<p><b>Rounding Numbers</b> - var numOfStars = Math.round(scoreAvg); - Math must be capitalized. Can assign to new var or replace old variable</p>
 		<p><em>Syntax</em> - var scoreAvg = Math.ceil(0.000001); = 1 - This rounds up no matter how small the decimal</p>
 		<p><em>Syntax</em> - var scoreAvg = Math.floor(0.99999); = 0 - This rounds down no matter how big the decimal</p>
 		<h3>Chapter 27</h3>
 		<p><b>Generating Random Numbers</b> - generates random number like a simulation of a dice throw</p>
-		<p><em>Syntax</em> - var randomNumber = Math.random(); - Generates a 16-place decimal number.  If you need 6 possible numbers numltiple by 6 and then add 1.  Then use
-		floor to round down.  </p>
+		<p><em>Syntax</em> - var randomNumber = Math.random(); - Generates a 16-place decimal number. If you need 6 possible numbers numltiple by 6 and then add 1. Then use
+			floor to round down. </p>
 		<h3>Chapter 28</h3>
-		<p><b>Converting strings to integers and decimals</b> - Sometimes JS turns a string temporarily into a number to be used for math.  Here's how to always convert it.</p>
+		<p><b>Converting strings to integers and decimals</b> - Sometimes JS turns a string temporarily into a number to be used for math. Here's how to always convert it.</p>
 		<p><em>Syntax</em> - var currentAge = prompt("Enter your age.");</p>
-		<p><em>Syntax</em> - var qualifyingAge = parseInt(currentAge) + 1; - takes your entry, truns it into a number and adds 1.  </p>
-		<p><em>Other Info</em> - if you had a number 1.999 and you use parseInt - it will give you 1.  It does not round.  If you want to preserve a decimal number, use
-		parseFloat instead of parseInt.  That would give you the entire 1.999</p>
+		<p><em>Syntax</em> - var qualifyingAge = parseInt(currentAge) + 1; - takes your entry, truns it into a number and adds 1. </p>
+		<p><em>Other Info</em> - if you had a number 1.999 and you use parseInt - it will give you 1. It does not round. If you want to preserve a decimal number, use
+			parseFloat instead of parseInt. That would give you the entire 1.999</p>
 		<h3>Chapter 29</h3>
-		<p><b>Converting strings to numbers, numbers to strings</b> - Use Number to turn a string into an int or float.  Use .toString() to turn a number to a string</p>
+		<p><b>Converting strings to numbers, numbers to strings</b> - Use Number to turn a string into an int or float. Use .toString() to turn a number to a string</p>
 		<p><em>Syntax</em> - var string = "24"; var num = Number(string);</p>
 		<p><em>Syntax</em> - var num = 1234; var string = num.toString();</p>
 		<h3>Chapter 30</h3>

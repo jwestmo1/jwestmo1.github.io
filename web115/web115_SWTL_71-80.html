@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<html lang = "en">
+<html lang="en">
+
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>East-Less-Sea Designs | Home</title>
-<link rel="stylesheet" type="text/css" href="styles/default.css"/>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>East-Less-Sea Designs | Home</title>
+	<link rel="stylesheet" type="text/css" href="styles/default.css" />
 </head>
+
 <body>
 
 
@@ -13,59 +15,67 @@
 		<div data-include="components/header.html"></div>
 		<div data-include="components/nav.html"></div>
 
-		<h2>SWTL 61-70</h2>
-		<h3>Chapter 61</h3>
-		<p><b>The DOM - Junk artifacts and nodeType</b> - </p>
-		<p><em>Syntax</em> - </p>
-		<p><em>Syntax</em> - </p>
-		<p><em>Syntax</em> - </p>
-		<h3>Chapter 62</h3>
-		<p><b>Manipulating Images and Text</b> - </p>
-		<p><em>Syntax</em> - </p>
-		<p><em>Syntax</em> - </p>
-		<p><em>Syntax</em> - </p>
-		<h3>Chapter 63</h3>
-		<p><b>Swapping Images</b> - </p>
-		<p><em>Syntax</em> - </p>
-		<p><em>Syntax</em> - </p>
-		<p><em>Syntax</em> - </p>
-		<h3>Chapter 64</h3>
-		<p><b>Swapping Images and Setting Classes</b> - </p>
-		<p><em>Syntax</em> - </p>
-		<p><em>Syntax</em> - </p>
-		<p><em>Syntax</em> - </p>
-		<h3>Chapter 64</h3>
-		<p><b>Setting Styles</b> - </p>
-		<p><em>Syntax</em> - </p>
-		<p><em>Syntax</em> - </p>
-		<p><em>Syntax</em> - </p>
-		<h3>Chapter 66</h3>
-		<p><b>Target All Elements by Tag Name</b> - </p>
-		<p><em>Syntax</em> - </p>
-		<p><em>Syntax</em> - </p>
-		<p><em>Syntax</em> - </p>
-		<h3>Chapter 67</h3>
-		<p><b>Target Some Elements by Tag Name</b> - </p>
-		<p><em>Syntax</em> - </p>
-		<p><em>Syntax</em> - <p>
-		<p><em>Syntax</em> - </p>
-		<h3>Chapter 68</h3>
-		<p><b>The DOM</b></p>
-		<p><em>Syntax</em> - </p>
-		<p><em>Syntax</em> - </p>
-		<p><em>Syntax</em> - </p>
-		<h3>Chapter 69</h3>
-		<p><b>The DOM: Parents and Children</b></p>
-		<p><em>Syntax</em> - </p>
-		<p><em>Syntax</em> - </p>
-		<p><em>Syntax</em> - </p>
-		<h3>Chapter 70</h3>
-		<p><b>The DOM: Finding Children</b></p>
-		<p><em>Syntax</em> - </p>
-		<p><em>Syntax</em> - </p>
-		<p><em>Syntax</em> - </p>
-		<p><em>Syntax</em> - </p>
-		<p><em>Syntax</em> - </p>
+		<h2>SWTL 71-80</h2>
+		<h3>Chapter 71</h3>
+		<p><b>Objects: Methods</b> - Attach a function to an object to become the objects method</p>
+		<p><em>Syntax</em> - The word this is used instead of repeating the name of the object.</p>
+		<p><em>Syntax</em> - Use this.whatever and JS knows you are referring to a property of the object being defined</p>
+		<p><em>Syntax</em> - EX: var bestPrice = plan1.price OR var bestPrice = this.price</p>
+		<h3>Chapter 72</h3>
+		<p><b>Objects: Constructors</b> - Constructor Function</p>
+		<p><em>Syntax</em> - When you have lots of things to add to lots of objects you need a way to do so quickly. Construction functions
+			have capitalized variables</p>
+		<p><em>Syntax</em> - function Plan(name, price, space, transfer, pages) {</p>
+		<p><em>Syntax</em> - this.name = name;</p>
+		<p><em>Syntax</em> - this.price = price;</p>
+		<p><em>Syntax</em> - this.space = space;</p>
+		<p><em>Syntax</em> - this.transfer = trasfer;</p>
+		<p><em>Syntax</em> - this.pages = pages;}</p>
+		<p><em>Syntax</em> - Fill it in with: var plan 1 = new Plan("Basic", 3.99, 100, 1000, 10);</p>
+		<h3>Chapter 73</h3>
+		<p><b>Objects: Constructors for Methods</b> - build the method as well as the properties into the constructor function</p>
+		<p><em>Syntax</em> - When you attach a variable to an object, it is called a property of the object</p>
+		<p><em>Syntax</em> - When you attach a function to an object, it is called a method of the object</p>
+		<p><em>Syntax</em> - Using the above object add property that calls function: this.calcAnnual = function(percentIfDisc)</p>
+		<p><em>Syntax</em> - Call it like this: var annualPrice = ps.calcAnnual(.85)</p>
+		<h3>Chapter 74</h3>
+		<p><b>Objects: Prototypes</b> - One copy of the method shared by all objects in the contructor</p>
+		<p><em>Syntax</em> - Don't make in the constructor function. Instead define with:</p>
+		<p><em>Syntax</em> - Plan.prototype.calcAnnual = function(percentIfDisc)</p>
+		<p><em>Syntax</em> - Rest of code is the same.</p>
+		<p><em>Syntax</em> - Can have prototype properties too. Plan.prototype.cancellable = true;</p>
+		<h3>Chapter 75</h3>
+		<p><b>Objects: Checking for Properties and Methods</b> - see if an object has a particular property.</p>
+		<p><em>Syntax</em> - var gotTheProperty = "price" in plan1; = Checks if plan 1 has a property called price and returns boolean</p>
+		<h3>Chapter 76</h3>
+		<p><b>Browser Control: Getting and Setting the URL</b> - find where the browser is at and do things</p>
+		<p><em>Syntax</em> - Current location: var whereWeAt = window.location.href;</p>
+		<p><em>Syntax</em> - Can get pieces: var theDomain = window.location.hostname;</p>
+		<p><em>Syntax</em> - Can get host and path: var thePath = window.location.pathname;</p>
+		<p><em>Syntax</em> - Can get the hash: var theAnchor = window.location.hash;</p>
+		<p><em>Syntax</em> - Can use the pieces to go to different places in site. var destination = "http://" + theDomain + "wow.html";</p>
+		<h3>Chapter 77</h3>
+		<p><b>Browser Control: Getting and Setting the URL Another Way</b> - asssigning and replaing the URL</p>
+		<p><em>Syntax</em> - Assigning a URL with history intact window.location.assign("http://me.com")</p>
+		<p><em>Syntax</em> - Assigning a URL and interfering with browser history - window.location.replace("http://me.com")</p>
+		<p><em>Syntax</em> - To reload current page use - window.location.reload();</p>
+		<h3>Chapter 78</h3>
+		<p><b>Browser Control: Forward and Reverse</b> - as if the user did backspace or forward on browser button</p>
+		<p><em>Syntax</em> - Backward - history.back();</p>
+		<p><em>Syntax</em> - Forward - history.forward();</p>
+		<p><em>Syntax</em> - Can go back and forward using positive and negative numbers - history.go(-1); OR history.back()</p>
+		<h3>Chapter 79</h3>
+		<p><b>Browser Control: Filling the Window with Content</b>- making popups</p>
+		<p><em>Syntax</em> - You can't control where the window opens - var monkeyWindow = window.open();</p>
+		<p><em>Syntax</em> - Use write method to fill window</p>
+		<p><em>Syntax</em> - Close window with monkeyWindow.close();</p>
+		<h3>Chapter 80</h3>
+		<p><b>Browser Control: The Window's Size and Location</b>- open a window with a URL</p>
+		<p><em>Syntax</em> - var monkeyWindow = window.open("monk.html", "win1");</p>
+		<p><em>Syntax</em> - With specific size window - var monkeyWindow = window.open("monk.html", "win1", "width=420,height=380"); - no spaces</p>
+		<p><em>Syntax</em> - Where to open window on page - var monkeyWindow = window.open("monk.html", "win1", "width=420,height=380", left=200,
+			top=100);</p>
+
 
 	</main>
 
