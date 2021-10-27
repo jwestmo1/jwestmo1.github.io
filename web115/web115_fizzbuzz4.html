@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>East-Less-Sea Designs | Home</title>
+	<link rel="stylesheet" type="text/css" href="styles/default.css" />
+</head>
+
+<body>
+
+
+
+	<main>
+		<div data-include="components/header.html"></div>
+		<div data-include="components/nav.html"></div>
+
+		<h2>East-Less-Sea Wood Design Fizz Buzz 4</h2>
+		<h3 id="greeting">Welcome to East-Less-Sea Bizzzzzz!</h3>
+
+		<form id="custName">
+			<label for="firstName">First Name: </label>
+			<input type="text" id="firstName" placeholder="Enter your first name" required>
+			<br>
+
+			<label for="lastName">Last Name: </label>
+			<input type="text" id="lastName" placeholder="Enter your last name" required>
+			<br>
+
+			<label for="middleInitial">Middle Initial: </label>
+			<input type="text" id="middleInitial" placeholder="Enter your middle initial" required>
+			<br>
+
+			<input type="button" id="submit" onclick="return getData()" value="Submit">
+
+		</form>
+
+		<ul id="fizzBuzz"></ul>
+
+
+	</main>
+
+	<div data-include="components/footer.html"></div>
+	<script src="scripts/include.js"></script>
+	<script src="scripts/fizzBuzz4.js"></script>
+
+
+</body>
+
+
+</html>
