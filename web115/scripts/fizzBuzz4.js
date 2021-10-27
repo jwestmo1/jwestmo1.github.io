@@ -3,7 +3,7 @@ function getData() {
   let lastName = document.getElementById('lastName').value;
   let middleInitial = document.getElementById('middleInitial').value;
 
-  document.getElementById("greeting").textContent = "Welcome to East-Less-Sea, " + firstName + " " + middleInitial + " " + lastName + "!";
+  /*document.getElementById("greeting").textContent = "Welcome to East-Less-Sea, " + firstName + " " + middleInitial + " " + lastName + "!";*/
   document.getElementById("greeting").textContent = firstName + middleInitial + lastName ;
 
 
