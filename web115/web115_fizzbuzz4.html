@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>East-Less-Sea Designs | Home</title>
+	<link rel="stylesheet" type="text/css" href="styles/default.css" />
+</head>
+
+<body>
+
+
+
+	<main>
+		<div data-include="components/header.html"></div>
+		<div data-include="components/nav.html"></div>
+
+		<h2>East-Less-Sea Wood Design Fizz Buzz 3</h2>
+		<h3 id="greeting">Welcome to East-Less-Sea Bizzzzzz!</h3>
+
+		<p>Let's play a litte game.  After you tell me your name, please pick three numbers to divide by, three words to use for output, and
+			a number less than 126.</p>
+
+		<form id="custName">
+			<label for="firstName">First Name: </label>
+			<input type="text" id="firstName" placeholder="Enter your first name" required>
+			<br>
+
+			<label for="lastName">Last Name: </label>
+			<input type="text" id="lastName" placeholder="Enter your last name" required>
+			<br>
+
+			<label for="middleInitial">Middle Initial: </label>
+			<input type="text" id="middleInitial" placeholder="Enter your middle initial" required>
+			<br>
+
+			<label for="firstDivisor">Enter your first number: </label>
+			<input type="text" id="firstDivisor" placeholder="" required>
+			<br>
+			<label for="secondDivisor">Enter your second number: </label>
+			<input type="text" id="secondDivisor" placeholder="" required>
+			<br>
+			<label for="thirdDivisor">Enter your third number: </label>
+			<input type="text" id="thirdDivisor" placeholder="" required>
+			<br>
+
+			<label for="firstWord">Enter your first word: </label>
+			<input type="text" id="firstWord" placeholder="Wood" required>
+			<br>
+			<label for="secondWord">Enter your second word: </label>
+			<input type="text" id="secondWord" placeholder="Buzz" required>
+			<br>
+			<label for="thirdWord">Enter your third word: </label>
+			<input type="text" id="thirdWord" placeholder="Bang!" required>
+			<br>
+
+			<label for="howHigh">Pick a number between 1-125 to go up to: </label>
+			<input type="text" id="howHigh" placeholder="125" required>
+			<br>
+
+			<input type="button" id="submit" onclick="return getData()" value="Submit">
+
+		</form>
+
+		<ul id="fizzBuzz"></ul>
+
+
+	</main>
+
+	<div data-include="components/footer.html"></div>
+	<script src="scripts/include.js"></script>
+	<script src="scripts/fizzBuzz3.js"></script>
+
+
+</body>
+
+
+</html>
