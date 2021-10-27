@@ -4,7 +4,6 @@ function getData() {
   let middleInitial = document.getElementById('middleInitial').value;
 
   document.getElementById("greeting").textContent = "Welcome to East-Less-Sea, " + firstName + " " + middleInitial + " " + lastName + "!";
-  
 
 
 
