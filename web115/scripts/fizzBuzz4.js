@@ -48,6 +48,7 @@ function fizzBuzz(counter, firstDivisor, secondDivisor, thirdDivisor) {
 
 
 
+
     //creates new element & stores in variable
     var newListNum = document.createElement('li');
 
