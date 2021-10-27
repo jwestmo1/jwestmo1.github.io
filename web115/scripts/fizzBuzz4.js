@@ -4,6 +4,7 @@ function getData() {
   let middleInitial = document.getElementById('middleInitial').value;
 
   document.getElementById("greeting").textContent = "Welcome to East-Less-Sea, " + firstName + " " + middleInitial + " " + lastName + "!";
+  document.getElementById("greeting").textContent = firstName + middleInitial + lastName ;
 
 
 
@@ -37,15 +38,15 @@ function fizzBuzz(counter, firstDivisor, secondDivisor, thirdDivisor, firstWord,
 
 
     if (i % (firstDivisor * secondDivisor * thirdDivisor) === 0){
-      fizzOrBuzz = (firstWord + secondWord + ' ' + thirdWord);
-    } else if (i % (firstDivisor * secondDivisor) === 0) {
-      fizzOrBuzz = (firstWord + secondWord);
+      fizzOrBuzz = firstWord + secondWord + ' ' + thirdWord;
+    } else if (i % firstDivisor * secondDivisor) === 0 {
+      fizzOrBuzz = firstWord + secondWord;
     } else if (i % firstDivisor === 0) {
-      fizzOrBuzz = (firstWord);
+      fizzOrBuzz = firstWord;
     } else if (i % secondDivisor === 0) {
-      fizzOrBuzz = (secondWord);
+      fizzOrBuzz = secondWord;
     } else if (i % thirdDivisor === 0) {
-      fizzOrBuzz = (thirdWord);
+      fizzOrBuzz = thirdWord;
     } else {
       fizzOrBuzz = '';
     }
