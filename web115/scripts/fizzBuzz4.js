@@ -16,7 +16,7 @@ function getData() {
   let secondWord = document.getElementById('secondWord').value;
   let thirdWord = document.getElementById('thirdWord').value;
 
-  fizzBuzz(howHigh, firstDivisor, secondDivisor, thirdDivisor);
+  fizzBuzz(howHigh, firstDivisor, secondDivisor, thirdDivisor, firstWord, secondWord, thirdWord);
 }
 
 
