@@ -4,11 +4,18 @@ function getData() {
   let middleInitial = document.getElementById('middleInitial').value;
 
   document.getElementById("greeting").textContent = "Welcome to East-Less-Sea, " + firstName + " " + middleInitial + " " + lastName + "!";
-  let howHigh = 140;
-  let firstDivisor = 3;
-  let secondDivisor = 5;
-  let thirdDivisor = 7;
-  fizzBuzz(howHigh, firstDivisor, secondDivisor, thirdDivisor);
+
+  let firstDivisor = document.getElementById('firstDivisor').value;
+  let secondDivisor = document.getElementById('secondDivisor').value;
+  let thirdDivisor = document.getElementById('thirdDivisor').value;
+
+  let firstWord = document.getElementById('firstWord').value;
+  let secondWord = document.getElementById('secondWord').value;
+  let thirdWord = document.getElementById('thirdWord').value;
+
+  let howHigh = document.getElementById('howHigh').value;
+
+  fizzBuzz(howHigh, firstDivisor, secondDivisor, thirdDivisor, firstWord, secondWord, thirdWord);
 }
 
 
@@ -29,17 +36,17 @@ function fizzBuzz(counter, firstDivisor, secondDivisor, thirdDivisor) {
 
 
     if (i % (firstDivisor * secondDivisor * thirdDivisor) === 0){
-      fizzOrBuzz = 'WoodBuzz BANG!';
+      fizzOrBuzz = firstWord + secondWord + ' ' + thirdWord;
     } else if (i % (firstDivisor * secondDivisor) === 0) {
-      fizzOrBuzz = 'WoodBuzz';
+      fizzOrBuzz = firstWord + secondWord;
     } else if (i % firstDivisor === 0) {
-      fizzOrBuzz = 'Wood';
+      fizzOrBuzz = firstWord;
     } else if (i % secondDivisor === 0) {
-      fizzOrBuzz = 'Buzz';
+      fizzOrBuzz = secondWord;
     } else if (i % thirdDivisor === 0) {
-      fizzOrBuzz = 'BANG!';
+      fizzOrBuzz = thirdWord';
     } else {
-      fizzOrBuzz = 'East-Less-Sea';
+      fizzOrBuzz = '';
     }
 
 
