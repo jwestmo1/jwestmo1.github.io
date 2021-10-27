@@ -37,15 +37,15 @@ function fizzBuzz(counter, firstDivisor, secondDivisor, thirdDivisor, firstWord,
 
 
     if (i % (firstDivisor * secondDivisor * thirdDivisor) === 0){
-      fizzOrBuzz = firstWord + secondWord + ' ' + thirdWord;
+      fizzOrBuzz = (firstWord + secondWord + ' ' + thirdWord);
     } else if (i % (firstDivisor * secondDivisor) === 0) {
-      fizzOrBuzz = firstWord + secondWord;
+      fizzOrBuzz = (firstWord + secondWord);
     } else if (i % firstDivisor === 0) {
-      fizzOrBuzz = firstWord;
+      fizzOrBuzz = (firstWord);
     } else if (i % secondDivisor === 0) {
-      fizzOrBuzz = secondWord;
+      fizzOrBuzz = (secondWord);
     } else if (i % thirdDivisor === 0) {
-      fizzOrBuzz = thirdWord;
+      fizzOrBuzz = (thirdWord);
     } else {
       fizzOrBuzz = '';
     }
