@@ -31,7 +31,7 @@ function isDivisible(firstDivisor, secondDivisor) {
 
 
 
-function fizzBuzz(counter, firstDivisor, secondDivisor, thirdDivisor) {
+function fizzBuzz(counter, firstDivisor, secondDivisor, thirdDivisor, firstWord, secondWord, thirdWord) {
   for (let i = 1; i <= counter; i++) {
     var fizzOrBuzz;
 
