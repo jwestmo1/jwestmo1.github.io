@@ -6,9 +6,13 @@ function getData() {
   document.getElementById("greeting").textContent = "Welcome to East-Less-Sea, " + firstName + " " + middleInitial + " " + lastName + "!";
   let howHigh = document.getElementById('howHigh').value;
   let firstDivisor = document.getElementById('firstDivisor').value;
-  let secondDivisor = document.getElementById('secondDivisor').value;;
-  let thirdDivisor = document.getElementById('thirdDivisor').value;;
-  fizzBuzz(howHigh, firstDivisor, secondDivisor, thirdDivisor);
+  let secondDivisor = document.getElementById('secondDivisor').value;
+  let thirdDivisor = document.getElementById('thirdDivisor').value;
+
+  let firstWord = document.getElementById('firstWord').value;
+  let secondWord = document.getElementById('secondWord').value;
+  let thirdWord = document.getElementById('thirdWord').value;
+  fizzBuzz(howHigh, firstDivisor, secondDivisor, thirdDivisor, firstWord, secondWord, thirdWord);
 }
 
 
@@ -23,7 +27,7 @@ function isDivisible(firstDivisor, secondDivisor) {
 
 
 
-function fizzBuzz(counter, firstDivisor, secondDivisor, thirdDivisor) {
+function fizzBuzz(counter, firstDivisor, secondDivisor, thirdDivisor, firstWord, secondWord, thirdWord) {
   for (let i = 1; i <= counter; i++) {
     var fizzOrBuzz;
 
@@ -33,11 +37,11 @@ function fizzBuzz(counter, firstDivisor, secondDivisor, thirdDivisor) {
     } else if (i % (firstDivisor * secondDivisor) === 0) {
       fizzOrBuzz = 'WoodBuzz';
     } else if (i % firstDivisor === 0) {
-      fizzOrBuzz = 'Wood';
+      fizzOrBuzz = firstWord;
     } else if (i % secondDivisor === 0) {
-      fizzOrBuzz = 'Buzz';
+      fizzOrBuzz = secondWord;
     } else if (i % thirdDivisor === 0) {
-      fizzOrBuzz = 'BANG!';
+      fizzOrBuzz = thirdWord;
     } else {
       fizzOrBuzz = 'East-Less-Sea';
     }
