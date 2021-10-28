@@ -4,10 +4,10 @@ function getData() {
   let middleInitial = document.getElementById('middleInitial').value;
 
   document.getElementById("greeting").textContent = "Welcome to East-Less-Sea, " + firstName + " " + middleInitial + " " + lastName + "!";
-  let howHigh = 140;
-  let firstDivisor = 3;
-  let secondDivisor = 5;
-  let thirdDivisor = 7;
+  let howHigh = document.getElementById('howHigh').value;
+  let firstDivisor = document.getElementById('firstDivisor').value;
+  let secondDivisor = document.getElementById('secondDivisor').value;;
+  let thirdDivisor = document.getElementById('thirdDivisor').value;;
   fizzBuzz(howHigh, firstDivisor, secondDivisor, thirdDivisor);
 }
 
