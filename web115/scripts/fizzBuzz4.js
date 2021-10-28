@@ -5,6 +5,9 @@ function getData() {
 
   document.getElementById("greeting").textContent = "Welcome to East-Less-Sea, " + firstName + " " + middleInitial + " " + lastName + "!";
 
+
+
+  let howHigh = document.getElementById('howHigh').value;
   let firstDivisor = document.getElementById('firstDivisor').value;
   let secondDivisor = document.getElementById('secondDivisor').value;
   let thirdDivisor = document.getElementById('thirdDivisor').value;
@@ -13,9 +16,7 @@ function getData() {
   let secondWord = document.getElementById('secondWord').value;
   let thirdWord = document.getElementById('thirdWord').value;
 
-  let howHigh = document.getElementById('howHigh').value;
-
-  fizzBuzz(howHigh, firstDivisor, secondDivisor, thirdDivisor, firstWord, secondWord, thirdWord);
+  fizzBuzz(howHigh, firstDivisor, secondDivisor, thirdDivisor);
 }
 
 
@@ -30,7 +31,7 @@ function isDivisible(firstDivisor, secondDivisor) {
 
 
 
-function fizzBuzz(counter, firstDivisor, secondDivisor, thirdDivisor, firstWord, secondWord, thirdWord) {
+function fizzBuzz(counter, firstDivisor, secondDivisor, thirdDivisor) {
   for (let i = 1; i <= counter; i++) {
     var fizzOrBuzz;
 
@@ -44,10 +45,11 @@ function fizzBuzz(counter, firstDivisor, secondDivisor, thirdDivisor, firstWord,
     } else if (i % secondDivisor === 0) {
       fizzOrBuzz = secondWord;
     } else if (i % thirdDivisor === 0) {
-      fizzOrBuzz = thirdWord';
+      fizzOrBuzz = thirdWord;
     } else {
       fizzOrBuzz = '';
     }
+
 
 
 
