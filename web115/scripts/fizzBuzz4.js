@@ -33,9 +33,9 @@ function fizzBuzz(counter, firstDivisor, secondDivisor, thirdDivisor, firstWord,
 
 
     if (i % (firstDivisor * secondDivisor * thirdDivisor) === 0){
-      fizzOrBuzz = 'WoodBuzz BANG!';
+      fizzOrBuzz = firstWord + secondWord + ' ' + thirdWord;
     } else if (i % (firstDivisor * secondDivisor) === 0) {
-      fizzOrBuzz = 'WoodBuzz';
+      fizzOrBuzz = firstWord + secondWord;
     } else if (i % firstDivisor === 0) {
       fizzOrBuzz = firstWord;
     } else if (i % secondDivisor === 0) {
@@ -43,7 +43,7 @@ function fizzBuzz(counter, firstDivisor, secondDivisor, thirdDivisor, firstWord,
     } else if (i % thirdDivisor === 0) {
       fizzOrBuzz = thirdWord;
     } else {
-      fizzOrBuzz = 'East-Less-Sea';
+      fizzOrBuzz = ' ';
     }
 
 
