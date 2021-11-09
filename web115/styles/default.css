@@ -111,6 +111,15 @@ label {
 ::placeholder {
   font-family: 'Montserrat', sans-serif;
 }
+
+textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+
 /* Footer */
 footer a:visited {
   color: #52D6F4;
