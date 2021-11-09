@@ -2,7 +2,7 @@ function getData() {
   var firstName = document.getElementById('firstName').value;
   var lastName = document.getElementById('lastName').value;
 
-  document.getElementById("greeting").textContent = "Welcome to East-Less-Sea, " + firstName  + " " + lastName + "!";
+  document.getElementById("greeting").textContent = "Welcome to East-Less-Sea, " + firstName + " " + lastName + "!";
 
   var personalBackground = "Personal Background: " + document.getElementById('personalBackground').value;
   var professionalBackground = "Professional Background: " + document.getElementById('professionalBackground').value;
@@ -17,13 +17,9 @@ function getData() {
 }
 
 
+function showData(formData) {
 
-function showData(formData)
-{
-
-
-  for (let i = 0; i < formData.length; i++)
-  {
+  for (let i = 0; i < formData.length; i++) {
     //creates new element & stores in variable
     var newListNum = document.createElement('li');
 
