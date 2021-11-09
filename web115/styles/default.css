@@ -96,6 +96,21 @@ li {
   font-family: 'Brush Script MT', 'Brush Script Std', cursive;
 }
 
+.container {
+  text-align: left;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+label {
+  padding: 5px, 0
+}
+
+::placeholder {
+  font-family: 'Montserrat', sans-serif;
+}
 /* Footer */
 footer a:visited {
   color: #52D6F4;
