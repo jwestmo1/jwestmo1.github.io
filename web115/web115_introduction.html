@@ -21,7 +21,7 @@
 		<div class="container">
 			<form id="introForm">
 				<label for="firstName">First Name: </label>
-				<input type="text" id="firstName" placeholder="Jen" required>
+				<input type="text" id="firstName" name="firstName" placeholder="Jen" required>
 				<br>
 				<br>
 				<label for="lastName">Last Name: </label>
@@ -65,9 +65,9 @@
 				<br>
 				<textarea id="rememberBy" rows="7" cols="70" placeholder="I believe that learning doesn't just happen in the classroom, but sometimes you need that too." required></textarea>
 				<br>
-		</div>
-		<input type="button" id="submit" onclick="return getData()" value="Submit">
 
+		<input type="button" id="submit" onclick="return getData()" value="Submit">
+</div>
 
 		<ul id="showData"></ul>
 
