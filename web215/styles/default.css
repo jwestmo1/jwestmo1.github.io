@@ -1,63 +1,70 @@
 /* font-family: 'Klee One', cursive;
 font-family: 'Montserrat', sans-serif;
  */
-
-body
-{
+body {
   margin: 30px;
   font-family: 'Montserrat', sans-serif;
-  background-color: #363538; /* Light gray background */
-  color: #ABF7F8; /* light blue font color */
+  background-color: #363538;
+  /* Dark gray background */
+  color: #f6f6f6;
+  /* Cream font color */
   text-align: center;
   font-size: 25px;
   margin: 0 80px;
-
 }
 
 /* Header */
 header {
-	color: #52F4D1; /* Name and class */
-}
-
-header a{
-	color: #EE3735; /* Name and class */
+  color: #52F4D1;
+  /* Name and class */
 }
 
 h1 {
-	font-family: 'Klee One', cursive;
-	font-size: 60px;
-	background-color: #363538; /* Light gray background */
-	color: #EE3735; /* light blue font color */
+  font-family: 'Klee One', cursive;
+  font-size: 60px;
+  background-color: #363538;
+  /* Dark gray background */
+  color: #52F4D1;
+  /* Green font color */
 }
+
 h2, h3 {
-	font-family: 'Klee One', cursive;
+  font-family: 'Klee One', cursive;
+}
+
+h3 {
+  color: #52F4D1;
 }
 
 h5 {
-	font-family: 'Klee One', cursive;
-	font-style: italic;
+  font-family: 'Klee One', cursive;
+  font-style: italic;
 }
 
 ul {
-	text-align: left;
+  text-align: left;
+  list-style-type: none;
 }
 
 a {
-	text-decoration: none;
-	text-align: left;
+  text-decoration: none;
+  text-align: left;
 }
 
 a:link {
-	color: #EE3735; /* Blue */
-}
-a:visited {
-	color: #EE3735;
-}
-a:hover {
-	background-color: #8D8C8A;
-	color: #EE3735;
+  color: #52D6F4;
+  /* Blue */
 }
 
+a:visited {
+  color: #52D6F4;
+}
+
+a:hover {
+  background-color: #8D8C8A;
+  color: #52F4D1;
+  /* Green */
+}
 
 /* Main */
 main p {
@@ -65,45 +72,68 @@ main p {
 }
 
 main a:visited {
-	color: #52D6F4;
+  color: #52D6F4;
 }
 
 main a:hover {
-	background-color: #8D8C8A;
-	color: #52F4D1;
+  background-color: #8D8C8A;
+  color: #52F4D1;
 }
+
 main a:focus {
-	outline: thin dotted;
+  outline: thin dotted;
 }
+
 main a:hover, main a:active {
-	outline: 0;
+  outline: 0;
 }
+
 li {
-	margin: 10px 0;
+  margin: 10px 0;
 }
 
 .signature {
-	font-family: 'Brush Script MT', 'Brush Script Std', cursive;
+  font-family: 'Brush Script MT', 'Brush Script Std', cursive;
+}
 
+.container {
+  text-align: left;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+label {
+  padding: 5px 0
+}
+
+::placeholder {
+  font-family: 'Montserrat', sans-serif;
+}
+
+textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
 }
 
 
 /* Footer */
-footer img{
-  height: 31px;
-  width: 88px;
-}
 footer a:visited {
-	color: #EE3735;
+  color: #52D6F4;
 }
+
 footer a:hover {
-	background-color: #363538;
-	color: #EE3735;
+  background-color: #8D8C8A;
+  color: #52F4D1;
 }
+
 footer {
   padding-top: 5px;
-	width: 100%;
-	height: 30px;
+  width: 100%;
+  height: 30px;
   font-size: 20px;
   color: white;
   font-family: 'Montserrat', sans-serif;
@@ -113,9 +143,8 @@ footer {
 }
 
 footer a {
-	color: #ABF7F8;
+  color: #F6f6f6;
 }
-
 
 /* Navbar */
 /* Navbar container */
@@ -131,6 +160,17 @@ nav a {
   color: white;
   text-align: center;
   padding: 14px 16px;
+}
+
+
+.navbar {
+  padding: 5px 80px 5px 40px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  margin-right: 60px;
+  font-size: 30px;
+  letter-spacing: 3px;
 }
 
 /* The dropdown container */
@@ -185,46 +225,102 @@ nav a:hover, .dropdown:hover .dropbtn {
   display: block;
 }
 
+.dropdown-submenu:hover>.dropdown-content {
+  display: block;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  background-color: #f6f6f6;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  left: 100%;
+  /* Moves submenu to right of dropmenu */
+  top: 0px;
+}
+
+/* Links inside the submenu */
+.submenu_holder a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  display: block;
+  text-align: left;
+}
+
+.submenu_holder:hover .submenu {
+  display: block;
+}
+
+.submenu_holder a:hover {
+  background-color: #ddd;
+}
+
+.submenu_holder {
+  position: relative;
+}
+
 .brandBox {
-	background-color: #363538;
-	color: #f6f6f6;
-	padding: 10px ;
-	border: 100px #f6f6f6 ;
+  background-color: #363538;
+  color: #f6f6f6;
+  padding: 10px;
+  border: 100px #f6f6f6;
 }
+
 .color1 {
-	background-color: #363538;
-	padding: 10px ;
-	border: 1px black ;
+  background-color: #363538;
+  padding: 10px;
+  border: 1px black;
 }
+
 .color2 {
-	background-color: #8D8C8A;
-	padding: 10px ;
-	border: 1px black ;
+  background-color: #8D8C8A;
+  padding: 10px;
+  border: 1px black;
 }
+
 .color3 {
-	background-color: #ABF7F8;
-	padding: 10px ;
-	color: black;
-	border: 1px black ;
+  background-color: #f6f6f6;
+  padding: 10px;
+  color: black;
+  border: 1px black;
 }
+
 .color4 {
-	background-color: #35ECEE;
-	padding: 10px ;
-	color: black;
-	border: 1px black ;
+  background-color: #52d6f4;
+  padding: 10px;
+  border: 1px black;
 }
+
 .color5 {
-	background-color: #EE3735;
-	padding: 10px ;
-	color: black;
-	border: 1px black ;
+  background-color: #52f4d1;
+  padding: 10px;
+  border: 1px black;
 }
-.mainFont  {
-	font-family: 'Klee One', cursive;
+
+.mainFont {
+  font-family: 'Klee One', cursive;
 }
+
 .paragraphFont {
-	font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
+
 .tagline {
-	font-family: 'Klee One', cursive;
+  font-family: 'Klee One', cursive;
+}
+
+.input {
+  background-color: #52D6F4;
+}
+
+.output {
+  background-color: #52F4D1;
+}
+
+.construction {
+  text-align: center;
+  color: #52F4D1;
 }
