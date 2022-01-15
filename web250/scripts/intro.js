@@ -7,11 +7,13 @@ function getData() {
   var personalBackground = "Personal Background: " + document.getElementById('personalBackground').value;
   var professionalBackground = "Professional Background: " + document.getElementById('professionalBackground').value;
   var academicBackground = "Academic Background: " + document.getElementById('academicBackground').value;
+  var backgroundInThisSubject = "Background in this Subject: " + document.getElementById('backgroundInThisSubject').value;
   var computerPlatform = "Primary Computer Platform: " + document.getElementById('computerPlatform').value;
   var courses = "Courses I'm Taking, and Why: " + document.getElementById('courses').value;
-  var rememberBy = "Something to Remember Me By: " + document.getElementById('rememberBy').value;
+  var funnyInteresting = "Funny/Interesting Item About Yourself: " + document.getElementById('funnyInteresting').value;
+  var share = "I'd Also Like to Share: " + document.getElementById('share').value;
 
-  let formData = [personalBackground, professionalBackground, academicBackground, computerPlatform, courses, rememberBy];
+  let formData = [personalBackground, professionalBackground, academicBackground, backgroundInThisSubject, computerPlatform, courses, funnyInteresting, share];
 
   showData(formData);
 }
