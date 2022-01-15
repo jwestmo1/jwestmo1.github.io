@@ -3,7 +3,7 @@
     w.HTMLInclude = function() {
       function isInViewport(element, offset) {
         return element.getBoundingClientRect().top <= (+offset + w.innerHeight);
-      }
+      } 
 
       function ajax(url, elements) {
         var xhr = new XMLHttpRequest();

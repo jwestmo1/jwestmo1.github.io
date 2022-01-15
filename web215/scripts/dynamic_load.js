@@ -17,4 +17,4 @@ function load_home(e, file) {
   xhr.open("GET", file);
   xhr.setRequestHeader('Content-type', 'text/html');
   xhr.send();
-}
+} 
