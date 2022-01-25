@@ -2,6 +2,8 @@
 font-family: 'Montserrat', sans-serif;
  */
 body {
+  overflow: auto;
+  background-image: image('/images/RCAhiGJsUUE.jpg');
   margin: 30px;
   font-family: 'Montserrat', sans-serif;
   background-color: #363538;
