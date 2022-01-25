@@ -4,12 +4,13 @@ font-family: 'Montserrat', sans-serif;
 
 body
 {
+  /* image credit: Photo by Adrien Olichon on Unsplash */
+  background-image: url('images/RCAhiGJsUUE.jpg');
+  background-repeat: no-repeat;
+  background-color: #363538; /* Light gray background */
   margin: 30px;
   font-family: 'Montserrat', sans-serif;
   overflow: auto;
-  /* image credit: Photo by Adrien Olichon on Unsplash */
-  background-image: url('images/RCAhiGJsUUE.jpg');
-  background-color: #363538; /* Light gray background */
   color: #ABF7F8; /* light blue font color */
   text-align: center;
   font-size: 25px;
