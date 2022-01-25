@@ -6,11 +6,15 @@ body
 {
   margin: 30px;
   font-family: 'Montserrat', sans-serif;
+  overflow: auto;
+  /* image credit: Photo by Adrien Olichon on Unsplash */
+  background-image: url('images/unsplash.com.photos.RCAhiGJsUUE.jpg');
   background-color: #363538; /* Light gray background */
   color: #ABF7F8; /* light blue font color */
   text-align: center;
   font-size: 25px;
   margin: 0 80px;
+
 
 }
 
