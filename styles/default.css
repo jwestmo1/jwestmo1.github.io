@@ -1,19 +1,18 @@
 /* font-family: 'Klee One', cursive;
 font-family: 'Montserrat', sans-serif;
  */
-body {
-  overflow: auto;
-  background-image: image('https://blog.equalrightsinstitute.com/wp-content/uploads/2022/01/adrien-olichon-RCAhiGJsUUE-unsplash-1.jpg');
-  margin: 30px;
-  font-family: 'Montserrat', sans-serif;
-  background-color: #363538;
-  /* Dark gray background */
-  color: #f6f6f6;
-  /* Cream font color */
-  text-align: center;
-  font-size: 25px;
-  margin: 0 80px;
-}
+ body {
+   background-image: url('https://blog.equalrightsinstitute.com/wp-content/uploads/2022/01/adrien-olichon-RCAhiGJsUUE-unsplash-1.jpg');
+   margin: 30px;
+   font-family: 'Montserrat', sans-serif;
+   background-color: #363538;
+   /* Dark gray background */
+   color: #f6f6f6;
+   /* Cream font color */
+   text-align: center;
+   font-size: 25px;
+   margin: 0 80px;
+ }
 
 header {
   color: #52F4D1;
