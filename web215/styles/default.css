@@ -1,50 +1,46 @@
-/* font-family: 'Klee One', cursive;
+/* font-family: 'Klee One', serif;
 font-family: 'Montserrat', sans-serif;
  */
 body {
-  background-image: url('https://blog.equalrightsinstitute.com/wp-content/uploads/2022/01/adrien-olichon-RCAhiGJsUUE-unsplash-1.jpg');
-  margin: 30px;
+  //background-image: url('https://blog.equalrightsinstitute.com/wp-content/uploads/2022/01/adrien-olichon-RCAhiGJsUUE-unsplash-1.jpg');
+  //margin: 60px;
   font-family: 'Montserrat', sans-serif;
-  background-color: #363538;
-  /* Dark gray background */
-  color: #f6f6f6;
-  /* Cream font color */
+  background-color: #5F5F5F; //Gray
+  color: #B83939;
   text-align: center;
-  font-size: 25px;
+  font-size: 15px;
   margin: 0 80px;
 }
 
 /* Header */
 header {
-  color: #52F4D1;
+  color: #B83939; //Dark red font
   /* Name and class */
 }
 
 h1 {
-  font-family: 'Klee One', cursive;
+  font-family: 'Klee One', serif;
   font-size: 60px;
-  background-color: #363538;
-  /* Dark gray background */
-  color: #52F4D1;
-  /* Green font color */
+  background-color: #5F5F5F; //Gray
+  color: #39B8B8; // Teal
 }
 
 h2, h3 {
-  font-family: 'Klee One', cursive;
+  font-family: 'Klee One', serif;
 }
 
 h3 {
-  color: #52F4D1;
+  color: #39B8B8; // Teal
 }
 
 h5 {
-  font-family: 'Klee One', cursive;
+  font-family: 'Klee One', serif;
   font-style: italic;
 }
 
 ul {
   text-align: left;
-  list-style-type: none;
+  list-style-type: circle;
 }
 
 a {
@@ -62,7 +58,7 @@ a:visited {
 }
 
 a:hover {
-  background-color: #8D8C8A;
+  background-color: #929292; //Light gray
   color: #52F4D1;
   /* Green */
 }
@@ -77,7 +73,7 @@ main a:visited {
 }
 
 main a:hover {
-  background-color: #8D8C8A;
+  background-color: #929292; //Light gray
   color: #52F4D1;
 }
 
@@ -123,19 +119,20 @@ textarea {
 
 /* Footer */
 footer a:visited {
-  color: #52D6F4;
+  color: #93DEDE; //light teal
+  padding: 5px 0
 }
 
 footer a:hover {
-  background-color: #8D8C8A;
-  color: #52F4D1;
+  background-color: #929292; //light gray
+  color: #93DEDE; //light teal
 }
 
 footer {
   padding-top: 5px;
   width: 100%;
   height: 30px;
-  font-size: 20px;
+  font-size: 10px;
   color: white;
   font-family: 'Montserrat', sans-serif;
   margin-top: -10px;
@@ -144,20 +141,24 @@ footer {
 }
 
 footer a {
-  color: #F6f6f6;
+  color: #39B8B8; //Links color teal
+}
+
+#validation_link {
+  padding: 0 15px
 }
 
 /* Navbar */
 /* Navbar container */
 nav {
   overflow: hidden;
-  background-color: #8D8C8A;
+  background-color: #929292; //Light gray
 }
 
 /* Links inside the navbar */
 nav a {
   float: left;
-  font-size: 20px;
+  font-size: 15px;
   color: white;
   text-align: center;
   padding: 14px 16px;
@@ -170,7 +171,7 @@ nav a {
   border-radius: 0;
   margin-bottom: 0;
   margin-right: 60px;
-  font-size: 30px;
+  font-size: 20px;
   letter-spacing: 3px;
 }
 
@@ -182,7 +183,7 @@ nav a {
 
 /* Dropdown button */
 .dropdown .dropbtn {
-  font-size: 20px;
+  font-size: 15px;
   border: none;
   outline: none;
   color: white;
@@ -194,7 +195,7 @@ nav a {
 
 /* Add a black background color to navbar links on hover */
 nav a:hover, .dropdown:hover .dropbtn {
-  background-color: #363538;
+  background-color: #5F5F5F; //Gray
 }
 
 /* Dropdown content (hidden by default) */
@@ -264,20 +265,20 @@ nav a:hover, .dropdown:hover .dropbtn {
 }
 
 .brandBox {
-  background-color: #363538;
+  background-color: #5F5F5F;//Gray
   color: #f6f6f6;
   padding: 10px;
   border: 100px #f6f6f6;
 }
 
 .color1 {
-  background-color: #363538;
+  background-color: #5F5F5F; //Gray
   padding: 10px;
   border: 1px black;
 }
 
 .color2 {
-  background-color: #8D8C8A;
+  background-color: #929292; //Light gray
   padding: 10px;
   border: 1px black;
 }
@@ -302,7 +303,7 @@ nav a:hover, .dropdown:hover .dropbtn {
 }
 
 .mainFont {
-  font-family: 'Klee One', cursive;
+  font-family: 'Klee One', serif;
 }
 
 .paragraphFont {
@@ -310,7 +311,7 @@ nav a:hover, .dropdown:hover .dropbtn {
 }
 
 .tagline {
-  font-family: 'Klee One', cursive;
+  font-family: 'Klee One', serif;
 }
 
 .input {
