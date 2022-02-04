@@ -42,7 +42,7 @@ h4 h5 {
 ul {
   text-align: left;
   list-style-type: circle;
-  color: #B83939;
+  color: #93DEDE;
 }
 
 a {
@@ -121,6 +121,7 @@ textarea {
 figcaption {
   font-size: 10px;
   font-style: italic;
+  color: #B83939;
 }
 
 
@@ -291,20 +292,20 @@ nav a:hover, .dropdown:hover .dropbtn {
 }
 
 .color3 {
-  background-color: #f6f6f6;
+  background-color: #B83939;
   padding: 10px;
   color: black;
   border: 1px black;
 }
 
 .color4 {
-  background-color: #52d6f4;
+  background-color: #39B8B8;
   padding: 10px;
   border: 1px black;
 }
 
 .color5 {
-  background-color: #52f4d1;
+  background-color: #93DEDE;
   padding: 10px;
   border: 1px black;
 }
