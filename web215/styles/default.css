@@ -41,6 +41,7 @@ h5 {
 ul {
   text-align: left;
   list-style-type: circle;
+  color: default;
 }
 
 a {
@@ -114,6 +115,11 @@ textarea {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
+}
+
+figcaption {
+  font-size: 10px;
+  font-style: italic;
 }
 
 
