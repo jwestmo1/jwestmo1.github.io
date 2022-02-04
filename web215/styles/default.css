@@ -15,7 +15,7 @@ body {
 /* Header */
 header {
   color: #B83939; //Dark red font
-  /* Name and class */
+  font-size: 20px;
 }
 
 h1 {
@@ -34,7 +34,7 @@ h3 {
   color: #39B8B8; // Teal
 }
 
-h5 {
+h4 h5 {
   font-family: 'Klee One', serif;
   font-style: italic;
 }
