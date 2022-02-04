@@ -5,7 +5,7 @@ body {
   //background-image: url('https://blog.equalrightsinstitute.com/wp-content/uploads/2022/01/adrien-olichon-RCAhiGJsUUE-unsplash-1.jpg');
   //margin: 60px;
   font-family: 'Montserrat', sans-serif;
-  background-color: #5F5F5F; //Gray
+  background-color: #3B3B3B; //Gray
   color: #B83939;
   text-align: center;
   font-size: 15px;
@@ -21,7 +21,7 @@ header {
 h1 {
   font-family: 'Klee One', serif;
   font-size: 60px;
-  background-color: #5F5F5F; //Gray
+  background-color: #3B3B3B; //Gray
   color: #39B8B8; // Teal
 }
 
@@ -74,7 +74,7 @@ main a:visited {
 }
 
 main a:hover {
-  background-color: #5F5F5F; //Gray
+  background-color: #3B3B3B; //Gray
   color: #B83939;
 }
 
@@ -201,7 +201,7 @@ nav a {
 
 /* Add a black background color to navbar links on hover */
 nav a:hover, .dropdown:hover .dropbtn {
-  background-color: #5F5F5F; //Gray
+  background-color: #3B3B3B; //Gray
 }
 
 /* Dropdown content (hidden by default) */
@@ -271,14 +271,14 @@ nav a:hover, .dropdown:hover .dropbtn {
 }
 
 .brandBox {
-  background-color: #5F5F5F;//Gray
+  background-color: #3B3B3B;//Gray
   color: #f6f6f6;
   padding: 10px;
   border: 100px #f6f6f6;
 }
 
 .color1 {
-  background-color: #5F5F5F; //Gray
+  background-color: #3B3B3B; //Gray
   padding: 10px;
   border: 1px black;
 }
