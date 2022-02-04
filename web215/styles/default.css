@@ -9,7 +9,7 @@ body {
   color: #B83939;
   text-align: center;
   font-size: 15px;
-  margin: 0 120px;
+  margin: 0 200px;
 }
 
 /* Header */
@@ -73,8 +73,8 @@ main a:visited {
 }
 
 main a:hover {
-  background-color: #929292; //Light gray
-  color: #52F4D1;
+  background-color: #5F5F5F; //Gray
+  color: #B83939;
 }
 
 main a:focus {
