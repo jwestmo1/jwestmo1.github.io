@@ -51,12 +51,12 @@ a {
 }
 
 a:link {
-  color: #52D6F4;
+  color: #39B8B8;
   /* Blue */
 }
 
 a:visited {
-  color: #52D6F4;
+  color: #39B8B8;
 }
 
 a:hover {
@@ -68,10 +68,11 @@ a:hover {
 /* Main */
 main p {
   text-align: left;
+  color: #93DEDE;
 }
 
 main a:visited {
-  color: #52D6F4;
+  color: #39B8B8;
 }
 
 main a:hover {
@@ -323,7 +324,7 @@ nav a:hover, .dropdown:hover .dropbtn {
 }
 
 .input {
-  background-color: #52D6F4;
+  background-color: #39B8B8;
 }
 
 .output {
