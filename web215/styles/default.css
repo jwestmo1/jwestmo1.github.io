@@ -1,141 +1,216 @@
 /* font-family: 'Klee One', serif;
 font-family: 'Montserrat', sans-serif;
  */
-
-body
-{
-  /* image credit: Photo by Adrien Olichon on Unsplash */
-  background-image: url('https://blog.equalrightsinstitute.com/wp-content/uploads/2022/01/adrien-olichon-RCAhiGJsUUE-unsplash-1.jpg');
-  background-repeat: no-repeat;
-  background-color: #363538; /* Light gray background */
-  margin: 30px;
+body {
   font-family: 'Montserrat', sans-serif;
-  overflow: auto;
-  color: #ABF7F8; /* light blue font color */
+  background-color: #3B3B3B; /*Gray*/
+  color: #E5A157;
   text-align: center;
-  font-size: 25px;
-  margin: 0 80px;
-
-
+  font-size: 15px;
+  margin: 0 200px;
 }
 
 /* Header */
 header {
-	color: #52F4D1; /* Name and class */
+  font-size: 30px;
+  width: 100%;
+  max-width: 1000px;
+  height: auto;
+  margin: 0 auto;
+
 }
 
-header a{
-	color: #EE3735; /* Name and class */
+.main-header {
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  float: left;
+}
+
+.brand-name {
+  text-align: center;
+  color: #E5A157; /*Dark red font*/
+}
+
+.name {
+  font-size: 40px;
+  text-align: center;
+}
+
+.taglinehead {
+  font-size: 20px;
 }
 
 h1 {
-	font-family: 'Klee One', serif;
-	font-size: 60px;
-	background-color: #363538; /* Light gray background */
-	color: #EE3735; /* light blue font color */
-}
-h2, h3 {
-	font-family: 'Klee One', serif;
+  font-family: 'Klee One', serif;
+  font-size: 60px;
+  background-color: #3B3B3B; /*Gray*/
+  color: #579BE5; /*Teal*/
 }
 
-h5 {
-	font-family: 'Klee One', serif;
-	font-style: italic;
+h2, h3 {
+  font-family: 'Klee One', serif;
+  color: #579BE5;
+}
+
+h3 {
+  color: #579BE5; /*Teal*/
+}
+
+h4 h5 {
+  font-family: 'Klee One', serif;
+  font-style: italic;
+  color: #579BE5; /*Teal*/
 }
 
 ul {
-	text-align: left;
+  text-align: left;
+  list-style-type: circle;
+  color: #C5DDF6;
 }
 
 a {
-	text-decoration: none;
-	text-align: left;
+  text-decoration: none;
+  text-align: left;
 }
 
 a:link {
-	color: #EE3735; /* Blue */
-}
-a:visited {
-	color: #EE3735;
-}
-a:hover {
-	background-color: #8D8C8A;
-	color: #EE3735;
+  color: #579BE5;
+  /* Blue */
 }
 
+a:visited {
+  color: #579BE5;
+}
+
+a:hover {
+  background-color: #929292; /*Light gray*/
+  color: #52F4D1;
+  /* Green */
+}
 
 /* Main */
 main p {
   text-align: left;
+  color: #C5DDF6;
 }
 
 main a:visited {
-	color: #52D6F4;
+  color: #579BE5;
 }
 
 main a:hover {
-	background-color: #8D8C8A;
-	color: #52F4D1;
+  background-color: #3B3B3B; /*Gray*/
+  color: #E5A157;
 }
+
 main a:focus {
-	outline: thin dotted;
+  outline: thin dotted;
 }
+
 main a:hover, main a:active {
-	outline: 0;
+  outline: 0;
 }
+
 li {
-	margin: 10px 0;
+  margin: 10px 0;
 }
 
 .signature {
-	font-family: 'Brush Script MT', 'Brush Script Std', serif;
-
+  font-family: 'Brush Script MT', 'Brush Script Std', cursive;
 }
 
+.container {
+  text-align: left;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+label {
+  padding: 5px 0
+}
+
+::placeholder {
+  font-family: 'Montserrat', sans-serif;
+}
+
+textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+figcaption {
+  font-size: 15px;
+  font-style: italic;
+  color: #E5A157;
+}
+
+figure {
+  float: right;
+}
 
 /* Footer */
-footer img{
-  height: 31px;
-  width: 88px;
-}
 footer a:visited {
-	color: #EE3735;
+  color: #C5DDF6; /*light teal*/
+  padding: 5px 0
 }
+
 footer a:hover {
-	background-color: #363538;
-	color: #EE3735;
+  background-color: #929292; /*light gray*/
+  color: #C5DDF6; /*light teal*/
 }
+
 footer {
-  padding-top: 5px;
-	width: 100%;
-	height: 30px;
-  font-size: 20px;
+  padding: 10px;
+  width: 100%;
+  height: 30px;
+  font-size: 10px;
   color: white;
   font-family: 'Montserrat', sans-serif;
-  margin-top: -10px;
+  margin-top: -10px 0 10px 0;
   letter-spacing: 2px;
   text-align: center;
 }
 
+
 footer a {
-	color: #ABF7F8;
+  color: #579BE5; /*Links color teal*/
 }
 
+#validation_link {
+  padding: 0 15px
+}
 
 /* Navbar */
 /* Navbar container */
 nav {
   overflow: hidden;
-  background-color: #8D8C8A;
+  background-color: #616161; /*Light gray*/
 }
 
 /* Links inside the navbar */
 nav a {
   float: left;
-  font-size: 20px;
+  font-size: 15px;
   color: white;
   text-align: center;
   padding: 14px 16px;
+}
+
+.navbar {
+  padding: 5px 80px 5px 40px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  margin-right: 60px;
+  font-size: 20px;
+  letter-spacing: 3px;
 }
 
 /* The dropdown container */
@@ -146,19 +221,21 @@ nav a {
 
 /* Dropdown button */
 .dropdown .dropbtn {
-  font-size: 20px;
+  font-size: 15px;
   border: none;
   outline: none;
   color: white;
   padding: 14px 16px;
   background-color: inherit;
-  font-family: inherit; /* Important for vertical align on mobile phones */
-  margin: 0; /* Important for vertical align on mobile phones */
+  font-family: inherit;
+  /* Important for vertical align on mobile phones */
+  margin: 0;
+  /* Important for vertical align on mobile phones */
 }
 
 /* Add a black background color to navbar links on hover */
 nav a:hover, .dropdown:hover .dropbtn {
-  background-color: #363538;
+  background-color: #3B3B3B; /*Gray*/
 }
 
 /* Dropdown content (hidden by default) */
@@ -167,7 +244,7 @@ nav a:hover, .dropdown:hover .dropbtn {
   position: absolute;
   background-color: #f6f6f6;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
@@ -190,46 +267,111 @@ nav a:hover, .dropdown:hover .dropbtn {
   display: block;
 }
 
+.dropdown-submenu:hover>.dropdown-content {
+  display: block;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  background-color: #f6f6f6;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  left: 100%;
+  /* Moves submenu to right of dropmenu */
+  top: 0px;
+}
+
+/* Links inside the submenu */
+.submenu_holder a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  display: block;
+  text-align: left;
+}
+
+.submenu_holder:hover .submenu {
+  display: block;
+}
+
+.submenu_holder a:hover {
+  background-color: #ddd;
+}
+
+.submenu_holder {
+  position: relative;
+}
+
 .brandBox {
-	background-color: #363538;
-	color: #f6f6f6;
-	padding: 10px ;
-	border: 100px #f6f6f6 ;
+  background-color: #3B3B3B; /*Gray*/
+  border: 100px #f6f6f6;
+  text-align: center;
+  color: #579BE5;
 }
+
+.brandp {
+  text-align: center;
+}
+
 .color1 {
-	background-color: #363538;
-	padding: 10px ;
-	border: 1px black ;
+  background-color: #3B3B3B; /*Gray*/
+  padding: 10px;
+  color: #C5DDF6;
+  border: 1px black;
 }
+
 .color2 {
-	background-color: #8D8C8A;
-	padding: 10px ;
-	border: 1px black ;
+  background-color: #929292; /*Light gray*/
+  padding: 10px;
+  border: 1px black;
+  color: black;
 }
+
 .color3 {
-	background-color: #E5A157;
-	padding: 10px ;
-	color: black;
-	border: 1px black ;
+  background-color: #E5A157;
+  padding: 10px;
+  color: black;
+  border: 1px black;
 }
+
 .color4 {
-	background-color: #579BE5;
-	padding: 10px ;
-	color: black;
-	border: 1px black ;
+  background-color: #579BE5;
+  padding: 10px;
+  color: black;
+  border: 1px black;
 }
+
 .color5 {
-	background-color: #C5DDF6;
-	padding: 10px ;
-	color: black;
-	border: 1px black ;
+  background-color: #C5DDF6;
+  padding: 10px;
+  color: black;
+  border: 1px black;
 }
-.mainFont  {
-	font-family: 'Klee One', serif;
+
+.mainFont {
+  font-family: 'Klee One', serif;
 }
+
 .paragraphFont {
-	font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
+
 .tagline {
-	font-family: 'Klee One', serif;
+  font-family: 'Klee One', serif;
+  padding-bottom: 10px;
+}
+
+.input {
+  background-color: #579BE5;
+}
+
+.output {
+  background-color: #52F4D1;
+}
+
+.construction {
+  text-align: center;
+  color: #52F4D1;
 }
