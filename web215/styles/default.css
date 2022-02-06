@@ -18,8 +18,19 @@ header {
   font-size: 20px;
 }
 
-figure {
-  float:right;
+.main-header {
+  width: 1000px;
+  height: 150px;
+  margin: 0 auto;
+}
+
+.logo {
+  float: left;
+}
+
+.brand-name {
+  text-align: center;
+  font-size: 50px;
 }
 
 h1 {
