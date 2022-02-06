@@ -118,6 +118,10 @@ li {
   margin: 10px 0;
 }
 
+.web_desc {
+  text-align: center;
+}
+
 .signature {
   font-family: 'Brush Script MT', 'Brush Script Std', cursive;
 }
