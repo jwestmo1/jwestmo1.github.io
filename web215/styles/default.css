@@ -107,6 +107,11 @@ li {
   margin: 10px 0;
 }
 
+.brandBox {
+  color: #93DEDE;
+  text-align: center;
+}
+
 .signature {
   font-family: 'Brush Script MT', 'Brush Script Std', cursive;
 }
