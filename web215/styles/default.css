@@ -30,7 +30,10 @@ header {
 
 .brand-name {
   text-align: center;
+}
 
+.brand-name .name {
+  font-size: 25px
 }
 
 h1 {
