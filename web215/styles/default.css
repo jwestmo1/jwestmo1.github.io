@@ -14,13 +14,15 @@ body {
 
 /* Header */
 header {
-  color: #B83939; //Dark red font
   font-size: 35px;
   width: 1000px;
   height: 150px;
   margin: 0 auto;
 }
 
+.main-header {
+  color: #B83939; //Dark red font
+}
 
 .logo {
   float: left;
