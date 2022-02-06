@@ -18,6 +18,10 @@ header {
   font-size: 20px;
 }
 
+img {
+  float:right;
+}
+
 h1 {
   font-family: 'Klee One', serif;
   font-size: 60px;
