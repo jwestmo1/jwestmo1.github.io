@@ -52,6 +52,7 @@ h3 {
 h4 h5 {
   font-family: 'Klee One', serif;
   font-style: italic;
+  color: #39B8B8; // Teal
 }
 
 ul {
@@ -113,6 +114,7 @@ li {
 
 .brandBox {
   text-align: center;
+  color: #39B8B8;
 }
 
 .signature {
