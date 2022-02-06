@@ -30,7 +30,7 @@ header {
 
 .brand-name {
   text-align: center;
-  
+
 }
 
 h1 {
@@ -143,6 +143,10 @@ figcaption {
   font-size: 15px;
   font-style: italic;
   color: #B83939;
+}
+
+figure {
+  float:right;
 }
 
 
