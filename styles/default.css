@@ -2,20 +2,15 @@
 font-family: 'Montserrat', sans-serif;
  */
  body {
-   //background-image: url('https://blog.equalrightsinstitute.com/wp-content/uploads/2022/01/adrien-olichon-RCAhiGJsUUE-unsplash-1.jpg');
-   //margin: 60px;
+
    font-family: 'Montserrat', sans-serif;
-   background-color: #3B3B3B; //Gray
+   background-color: #3B3B3B; /*Gray*/
    color: #B83939;
    text-align: center;
    font-size: 15px;
    margin: 0 200px;
  }
 
-header {
-  color: #52F4D1;
-  /* Name and class */
-}
 
 h1 {
   font-family: 'Klee One', serif;
