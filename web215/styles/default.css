@@ -108,14 +108,9 @@ li {
   margin: 10px 0;
 }
 
-.color1 .color2 {
-  color: #93DEDE;
-}
 
-.brandBox {
-  text-align: center;
-  color: #39B8B8;
-}
+
+
 
 .signature {
   font-family: 'Brush Script MT', 'Brush Script Std', cursive;
@@ -300,9 +295,14 @@ nav a:hover, .dropdown:hover .dropbtn {
 
 .brandBox {
   background-color: #3B3B3B;//Gray
-  color: #f6f6f6;
   padding: 10px;
   border: 100px #f6f6f6;
+  text-align: center;
+  color: #39B8B8;
+}
+
+.color1 .color2 {
+  color: #93DEDE;
 }
 
 .color1 {
@@ -327,12 +327,14 @@ nav a:hover, .dropdown:hover .dropbtn {
 .color4 {
   background-color: #39B8B8;
   padding: 10px;
+  color: black;
   border: 1px black;
 }
 
 .color5 {
   background-color: #93DEDE;
   padding: 10px;
+  color: black;
   border: 1px black;
 }
 
