@@ -107,8 +107,11 @@ li {
   margin: 10px 0;
 }
 
-.brandBox {
+.color1 .color2 {
   color: #93DEDE;
+}
+
+.brandBox {
   text-align: center;
 }
 
