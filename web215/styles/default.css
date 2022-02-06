@@ -15,9 +15,9 @@ body {
 /* Header */
 header {
   color: #B83939; //Dark red font
-  font-size: 20px;
+  font-size: 30px;
   width: 1000px;
-  height: 150px;
+  height: 250px;
   margin: 0 auto;
 }
 
@@ -32,6 +32,7 @@ header {
 
 .brand-name .name {
   font-size: 25px
+  text-align: center;
 }
 
 h1 {
