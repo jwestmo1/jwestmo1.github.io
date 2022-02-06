@@ -16,13 +16,11 @@ body {
 header {
   color: #B83939; //Dark red font
   font-size: 20px;
-}
-
-.main-header {
   width: 1000px;
   height: 150px;
   margin: 0 auto;
 }
+
 
 .logo {
   float: left;
