@@ -116,10 +116,6 @@ li {
   margin: 10px 0;
 }
 
-
-
-
-
 .signature {
   font-family: 'Brush Script MT', 'Brush Script Std', cursive;
 }
@@ -154,9 +150,8 @@ figcaption {
 }
 
 figure {
-  float:right;
+  float: right;
 }
-
 
 /* Footer */
 footer a:visited {
@@ -205,7 +200,6 @@ nav a {
   padding: 14px 16px;
 }
 
-
 .navbar {
   padding: 5px 80px 5px 40px;
   border: 0;
@@ -230,8 +224,10 @@ nav a {
   color: white;
   padding: 14px 16px;
   background-color: inherit;
-  font-family: inherit; /* Important for vertical align on mobile phones */
-  margin: 0; /* Important for vertical align on mobile phones */
+  font-family: inherit;
+  /* Important for vertical align on mobile phones */
+  margin: 0;
+  /* Important for vertical align on mobile phones */
 }
 
 /* Add a black background color to navbar links on hover */
@@ -245,7 +241,7 @@ nav a:hover, .dropdown:hover .dropbtn {
   position: absolute;
   background-color: #f6f6f6;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
@@ -306,46 +302,47 @@ nav a:hover, .dropdown:hover .dropbtn {
 }
 
 .brandBox {
-  background-color: #3B3B3B;//Gray
-  padding: 10px;
+  background-color: #3B3B3B; //Gray
   border: 100px #f6f6f6;
   text-align: center;
   color: #39B8B8;
 }
 
-
+.brandp {
+  text-align: center;
+}
 
 .color1 {
   background-color: #3B3B3B; //Gray
-/* padding: 10px; */
+  padding: 10px;
   color: #93DEDE;
   border: 1px black;
 }
 
 .color2 {
   background-color: #929292; //Light gray
-/* padding: 10px; */
+  padding: 10px;
   border: 1px black;
   color: black;
 }
 
 .color3 {
   background-color: #B83939;
-/* padding: 10px; */
+  padding: 10px;
   color: black;
   border: 1px black;
 }
 
 .color4 {
   background-color: #39B8B8;
-/* padding: 10px; */
+  padding: 10px;
   color: black;
   border: 1px black;
 }
 
 .color5 {
   background-color: #93DEDE;
-/* padding: 10px; */
+  padding: 10px;
   color: black;
   border: 1px black;
 }
