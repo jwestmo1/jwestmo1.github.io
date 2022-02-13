@@ -4,7 +4,7 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<title>East-Less-Sea Designs | Home</title>
-	<link rel="stylesheet" type="text/css" href="styles.css" />
+	<link rel="stylesheet" type="text/css" href="styles/styles.css" />
 </head>
 
 <body>
@@ -23,14 +23,14 @@
 				<em>How to Be Happy No Matter Your Circumstances</em>
 			</div>
 		</a>
-
+		</div>
 
 		<nav>
-			<a href="?p=web250_introduction.php">Introduction</a>
-			<a href="?p=web250_contract.php">Contract</a>
-			<a href="?p=web250_brand.php">Brand Guide</a>
+			<a href="?p=contents/web250_introduction.php">Introduction</a>
+			<a href="?p=contents/web250_contract.php">Contract</a>
+			<a href="?p=contents/web250_brand.php">Brand Guide</a>
 		</nav>
-		</div>
+
 	</header>
 
 	<!--<hr /> -->
@@ -40,7 +40,7 @@
 		$sPage = $_GET["p"];
 		//echo ("You picked the page: " . $sPage);
 
-		if($sPage == "") {  $sPage = "home.php"; }
+		if($sPage == "") {  $sPage = "contents/home.php"; }
 		include($sPage);
 	?>
 
