@@ -1,0 +1,7 @@
+		<h2>Contract</h2>
+		<p>I, <a href="/web250/web250_introduction.html" style="text-decoration:none">Jen C. Westmoreland</a>, agree to abide by the terms in my Spring WEB250 Database Driven Websites with my instructor, Professor D.I. von Briesen.</p>
+		<p>I understand that all work that I do on my school and personal websites will be publicly available to the world. I will not put information there that is inappropriate for schoolwork, or that I wish to keep private.</p>
+		<p>I also understand that it is my work that counts for attendance, not logins or showing up for class. As such, failure to turn in assignments may show as an absence.</p>
+
+		<p>Signed: <span class="signature">Jen C. Westmoreland</span>, 15 January 2022 </p>
+		<br>

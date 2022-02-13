@@ -1,0 +1,32 @@
+		<h2>Brand Guide for <span style="color:#B83939;">The Quokka's Guide to Happiness</span></h2>
+		<p class="web_desc">This website is all about being happy like the Quokka</p>
+
+		<div class="brandBox">
+			<h3>Colors</h3>
+			<div class="color1">
+				Gray - Hex#363538 - Background
+			</div>
+			<div class="color2">
+				Light Gray - Hex#8D8C8A - Background
+			</div>
+			<div class="color3">
+				Dark Red - Hex#B83939 - Font
+			</div>
+			<div class="color4">
+				Teal - Hex#39B8B8 - Font/Accent
+			</div>
+			<div class="color5">
+				Light Teal - Hex#93DEDE - Font/Accent
+			</div>
+			<h3>Fonts</h3>
+			<div class="mainFont">
+				Main Font is Klee One
+			</div>
+			<div class="paragraphFont">
+				Paragraph font is Montserrat
+			</div>
+			<h3>Tagline</h3>
+			<div class="tagline">
+				<em>How to be happy no matter your circumstances</em>
+			</div>
+		</div>
