@@ -4,7 +4,7 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<title>East-Less-Sea Designs | Home</title>
-	<link rel="stylesheet" type="text/css" href="styles/default.css" />
+	<link rel="stylesheet" type="text/css" href="styles.css" />
 </head>
 
 <body>
@@ -23,16 +23,17 @@
 				<em>How to Be Happy No Matter Your Circumstances</em>
 			</div>
 		</a>
-		</div>
+
 
 		<nav>
-			<a href="?p=/web250/web250_introduction.php">Introduction</a>
-			<a href="?p=/web250/web250_contract.php">Contract</a>
-			<a href="?p=/web250/web250_brand.php">Brand Guide</a>
+			<a href="?p=web250_introduction.php">Introduction</a>
+			<a href="?p=web250_contract.php">Contract</a>
+			<a href="?p=web250_brand.php">Brand Guide</a>
 		</nav>
+		</div>
 	</header>
 
-	<hr />
+	<!--<hr /> -->
 	<!-- dynamic content goes here -->
 
 	<?php
@@ -44,8 +45,7 @@
 	?>
 
 
-	<hr />
-
+<!--<hr /> -->
 	<footer>
 		<p><a href="https://github.com/jwestmo1">Github</a> |
 			<a href="https://jwestmo1.github.io/">Github Pages</a> |
