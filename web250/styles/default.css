@@ -116,6 +116,7 @@ main a:hover, main a:active {
 
 li {
   margin: 10px 0;
+  text-align: left;
 }
 
 .web_desc {
