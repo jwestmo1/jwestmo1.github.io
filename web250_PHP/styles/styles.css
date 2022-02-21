@@ -27,7 +27,7 @@ margin: 0 100px;
 
 .main-header {
   display: flex;
-  justify-content: left;
+  justify-content: center;
 
 }
 
@@ -209,7 +209,7 @@ nav a {
   float: left;
   font-size: 15px;
   color: white;
-  text-align: center;
+  text-align: left;
   padding: 14px 16px;
 }
 
