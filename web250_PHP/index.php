@@ -3,7 +3,7 @@
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<title>East-Less-Sea Designs | Home</title>
+	<title>Jen Westmoreland - Web 250 - The Quokka's Guide to Happiness</title>
 	<link rel="stylesheet" type="text/css" href="styles/styles.css" />
 </head>
 
@@ -14,7 +14,7 @@
 		<div class="main-header">
 		<a href="index.php" >
 			<div class="logo">
-				<img src="images/quokkaRedBkgrdNoWords150x150.png" alt="The Quokka's Guide to Happiness logo" class="logo">
+				<img src="images/quokkaClearBkgrdNoWords150x150.png" alt="The Quokka's Guide to Happiness logo" class="logo">
 			</div>
 			<div class="brand-name name">
 				The Quokka's Guide to Happiness
@@ -53,7 +53,7 @@
 			<a href="https://www.freecodecamp.org/jwestmore1">FreeCodeCamp</a> |
 			<a href="https://jsfiddle.net/user/jwestmo1/fiddles/">JSFiddle</a> |
 			<a href="https://www.linkedin.com/in/jen-westmoreland-17a06b10/">LinkedIn</a> |
-			<a href="http://jwestmo1.infinityfreeapp.com/">InfinityFreeApp</a>
+			<a href="http://jwestmo1.infinityfreeapp.com/">PHP Site</a>
 		</p>
 		<p>©2022 - Made with ❤️ by East-Less-Sea Designs</p>
 
