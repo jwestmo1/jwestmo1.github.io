@@ -9,4 +9,7 @@
   <li class="toc_li">
     <a href="?p=contents/web250_brand.php">Brand Guide</a>
   </li>
+<li class="toc_li">
+  <a href="?p=contents/samsusedcars.html">Car Guide</a>
+  </li>
 </ol>

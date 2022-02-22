@@ -29,7 +29,7 @@
 			<a href="?p=contents/web250_introduction.php">Introduction</a>
 			<a href="?p=contents/web250_contract.php">Contract</a>
 			<a href="?p=contents/web250_brand.php">Brand Guide</a>
-			<a href="?p=contents/Sams_used_cars/samsusedcars.html">Car Guide</a>
+			<a href="?p=contents/samsusedcars.html">Car Guide</a>
 		</nav>
 
 	</header>
