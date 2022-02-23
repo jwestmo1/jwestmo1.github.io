@@ -22,19 +22,16 @@ header {
 
 .grid{
   display: grid;
-  width: 1000px;
   height: 150px;
-  grid-template-columns: 150px 75%;
-  grid-template-rows: 150px auto;
+  width: 1000px;
 }
 
 .main-header {
-
   justify-content: center;
 }
 
 .logo {
-  float: left;
+  
   grid-area: 1 / 1 / span 8 / span 2;
 }
 
