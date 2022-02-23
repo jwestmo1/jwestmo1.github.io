@@ -13,9 +13,9 @@ body {
 /* Header */
 header {
   font-size: 30px;
-  width: 100%;
+  /* width: 100%;
   max-width: 1000px;
-  max-height: 150px;
+  max-height: 150px; */
   margin: 0 auto;
 
 }
@@ -31,7 +31,7 @@ header {
 }
 
 .logo {
-  
+
   grid-area: 1 / 1 / span 8 / span 2;
 }
 
