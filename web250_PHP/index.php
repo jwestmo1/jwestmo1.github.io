@@ -11,19 +11,17 @@
 
 
 	<header>
-		<div class="main-header">
-		<a href="index.php" >
-			<div class="logo">
-				<img src="images/quokkaClearBkgrdNoWords150x150.png" alt="The Quokka's Guide to Happiness logo" class="logo">
-			</div>
-			<div class="brand-name name">
-				The Quokka's Guide to Happiness
-			</div>
-			<div class="brand-name taglinehead">
-				<em>How to Be Happy No Matter Your Circumstances</em>
-			</div>
-		</a>
-		</div>
+			<a href="index.php">
+				<div class="grid">
+
+					<div class="logo">
+						<img src="images/quokkaClearBkgrdNoWords150x150.png" alt="The Quokka's Guide to Happiness logo" class="logo">
+					</div>
+					<div class="name">The Quokka's Guide to Happiness</div>
+					<div class="taglinehead"><em>How to Be Happy No Matter Your Circumstances</em></div>
+
+				</div>
+			</a>
 
 		<nav>
 			<a href="?p=contents/web250_introduction.php">Introduction</a>

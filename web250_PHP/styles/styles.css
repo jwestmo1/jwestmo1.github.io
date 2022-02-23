@@ -11,42 +11,37 @@ body {
 }
 
 /* Header */
-header {
-  font-size: 30px;
-  width: 100%;
-  max-width: 1000px;
-  max-height: 150px;
-  margin: 0 auto;
-  margin-bottom: 60px;
-}
 
 ol {
 margin: 0 100px;
-
+}
+header {
+  color: #B83939; /*Dark red font*/
 }
 
-.main-header {
-  display: flex;
+.grid{
+  display: grid;
+  height: 150px;
+  width: 1000px;
   justify-content: center;
-
+  align-content: center;
+  color: #B83939;
 }
 
 .logo {
-  float: left;
-}
-
-.brand-name {
   text-align: center;
-  color: #B83939; /*Dark red font*/
+  grid-area: 1 / 1 / span 8 / span 2;
 }
 
 .name {
   font-size: 40px;
+  grid-area: 1 / 3 / span 6/ span 6;
   text-align: center;
 }
 
 .taglinehead {
   font-size: 20px;
+  grid-area: 7 / 3 / span 2 / span 6;
 }
 
 h1 {
