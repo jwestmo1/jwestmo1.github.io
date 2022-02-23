@@ -20,13 +20,22 @@ header {
 
 }
 
+.grid{
+  display: grid;
+  width: 1000px;
+  height: 150px;
+  grid-template-columns: 150px 75%;
+  grid-template-rows: 150px auto;
+}
+
 .main-header {
-  display: flex;
+
   justify-content: center;
 }
 
 .logo {
   float: left;
+  grid-area: 1 / 1 / span 8 / span 2;
 }
 
 .brand-name {
@@ -36,11 +45,13 @@ header {
 
 .name {
   font-size: 40px;
+  grid-area: 1 / 3 / span 6/ span 6;
   text-align: center;
 }
 
 .taglinehead {
   font-size: 20px;
+  grid-area: 7 / 3 / span 2 / span 6;
 }
 
 h1 {
