@@ -11,37 +11,31 @@ body {
 }
 
 /* Header */
-header {
+/*header {
   font-size: 30px;
-  /* width: 100%;
+  width: 100%;
   max-width: 1000px;
-  max-height: 150px; */
+  max-height: 150px;
   margin: 0 auto;
 
-}
+}*/
 
 .grid{
   display: grid;
   height: 150px;
   width: 1000px;
-}
-
-.main-header {
   justify-content: center;
 }
 
 .logo {
-
-  grid-area: 1 / 1 / span 8 / span 2;
-}
-
-.brand-name {
   text-align: center;
   color: #B83939; /*Dark red font*/
+  grid-area: 1 / 1 / span 8 / span 2;
 }
 
 .name {
   font-size: 40px;
+  color: #B83939; /*Dark red font*/
   grid-area: 1 / 3 / span 6/ span 6;
   text-align: center;
 }
