@@ -45,6 +45,10 @@ header {
   grid-area: 7 / 3 / span 2 / span 6;
 }
 
+a.href {
+  text-align: center;  
+}
+
 h1 {
   font-family: 'Klee One', serif;
   font-size: 60px;
