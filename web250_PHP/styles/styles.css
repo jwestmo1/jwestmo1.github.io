@@ -45,6 +45,17 @@ header {
   justify-content: center;
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .page-title, .page-description {
+  float: left;
+    width: 20em;
+}
+
+.page-description {
+    text-align: left;
+}
+}
+
 h1 {
   font-family: 'Klee One', serif;
   font-size: 60px;
