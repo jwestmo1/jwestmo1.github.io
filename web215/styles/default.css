@@ -26,6 +26,7 @@ header {
 
 .logo {
   text-align: center;
+  justify-content: center;
   grid-area: 1 / 1 / span 8 / span 2;
 }
 
@@ -33,11 +34,14 @@ header {
   font-size: 40px;
   grid-area: 1 / 3 / span 6/ span 6;
   text-align: center;
+  justify-content: center;
 }
 
 .taglinehead {
   font-size: 20px;
   grid-area: 7 / 3 / span 2 / span 6;
+  text-align: center;
+  justify-content: center;
 }
 
 h1 {
