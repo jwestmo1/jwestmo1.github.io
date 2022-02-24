@@ -19,8 +19,7 @@ header {
   display: grid;
   height: 150px;
   width: 1000px;
-  justify-content: center;
-  align-content: center;
+  
   color: #E5A157;
 }
 
