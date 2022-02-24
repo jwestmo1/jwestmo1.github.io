@@ -19,13 +19,13 @@ header {
   display: grid;
   height: 150px;
   width: 1000px;
-  
+
   color: #E5A157;
 }
 
 .logo {
   text-align: center;
-  justify-content: center;
+  justify-content: right;
   grid-area: 1 / 1 / span 8 / span 2;
 }
 
