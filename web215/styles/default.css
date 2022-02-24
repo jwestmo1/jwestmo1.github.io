@@ -18,8 +18,7 @@ header {
 .grid{
   display: grid;
   height: 150px;
-  width: 1000px;
-
+  /*width: 1000px;*/
   color: #E5A157;
 }
 
