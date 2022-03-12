@@ -27,7 +27,7 @@
 			<a href="?p=web250_introduction.php">Introduction</a>
 			<a href="?p=web250_contract.php">Contract</a>
 			<a href="?p=web250_brand.php">Brand Guide</a>
-			<a href="?p=samsusedcars.html">Car Guide</a>
+			<a href="?p=contents/samsusedcars/samsusedcars.html">Car Guide</a>
 			<a href="?p=web250_oneFormTwoForm.php">One Form</a>
 		</nav>
 
