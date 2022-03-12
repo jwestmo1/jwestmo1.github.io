@@ -7,7 +7,7 @@
     <a href="https://www.linkedin.com/in/jen-westmoreland-17a06b10/">LinkedIn</a> |
     <a href="http://jwestmo1.infinityfreeapp.com/">PHP Site</a>
   </p>
-  <p>©2022 - Made with ❤️ by East-Less-Sea Designs</p>
+  <p><?php echo date('Y')?> - Made with ❤️ by East-Less-Sea Designs</p>
 
 <a href="http://validator.w3.org/check?uri=referer" id="validation_link">Validate HTML</a>
   <a href="https://jigsaw.w3.org/css-validator/check/referer?uri=" id="validation_link">Validate CSS</a>

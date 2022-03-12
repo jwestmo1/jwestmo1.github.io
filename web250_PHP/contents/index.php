@@ -2,7 +2,7 @@
   include('header.php');
 ?>
 
-	<!--<hr /> -->
+
 	<!-- dynamic content goes here -->
 
 	<?php
@@ -14,7 +14,7 @@
 	?>
 
 
-<!--<hr /> -->
+
 <?php
   include('footer.php');
 ?>
