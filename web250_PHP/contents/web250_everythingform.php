@@ -1,9 +1,8 @@
-<h2>Everything Form</h2>
-<h2>Be happy like the Quokka and register for a Quokka's Happiness class today!</h2>
+
 <?php
          // define variables and set to empty values
-         $nameErr = $emailErr = $genderErr = $websiteErr = "";
-         $name = $email = $gender = $class = $course = $subject = "";
+         $nameErr = $emailErr = $timeErr = $termsErr = $foodErr = "";
+         $name = $email = $prefname = $time = $class = $terms = $food = "";
 
          if ($_SERVER["REQUEST_METHOD"] == "POST") {
             if (empty($_POST["name"])) {
@@ -23,29 +22,36 @@
                }
             }
 
-            if (empty($_POST["course"])) {
-               $course = "";
+            if (empty($_POST["prefname"])) {
+               $prefname = "";
             }else {
-               $course = test_input($_POST["course"]);
+               $prefname = test_input($_POST["prefname"]);
             }
 
-            if (empty($_POST["class"])) {
-               $class = "";
+            if (empty($_POST["allergies"])) {
+               $allergies = "";
             }else {
-               $class = test_input($_POST["class"]);
+               $allergies = test_input($_POST["allergies"]);
             }
 
-            if (empty($_POST["gender"])) {
-               $genderErr = "Gender is required";
+            if (empty($_POST["time"])) {
+               $timeErr = "Time is required.";
             }else {
-               $gender = test_input($_POST["gender"]);
+               $time = test_input($_POST["time"]);
             }
 
-            if (empty($_POST["subject"])) {
-               $subjectErr = "You must select 1 or more";
+            if (empty($_POST["food"])) {
+               $foodErr = "You must select 1 or more food";
             }else {
-               $subject = $_POST["subject"];
+               $food = $_POST["food"];
             }
+
+            if (empty($_POST["checked"])) {
+               $termsErr = "You must agree to terms";
+            }else {
+               $terms = $_POST["checked"];
+            }
+
          }
 
          function test_input($data) {
@@ -56,10 +62,11 @@
          }
       ?>
 
-      <h2>Absolute classes registration</h2>
+      <h2>Everything Form</h2>
+      <h2>Be happy like the Quokka and register for a Quokka's Happiness class today!</h2>
 
-      <p><span class = "error">* required field.</span></p>
 
+      <div class="container">
       <form method = "POST" action = "">
          <table>
             <tr>
@@ -68,57 +75,66 @@
                   <span class = "error">* <?php echo $nameErr;?></span>
                </td>
             </tr>
-            <br>
+
             <tr>
                <td>E-mail: </td>
                <td><input type = "text" name = "email">
                   <span class = "error">* <?php echo $emailErr;?></span>
                </td>
             </tr>
-            <br>
+
             <tr>
-               <td>Time:</td>
-               <td> <input type = "text" name = "course">
-                  <span class = "error"><?php echo $websiteErr;?></span>
+               <td>Preferred Name:</td>
+               <td> <input type = "text" name = "prefname">
                </td>
             </tr>
-            <br>
+
             <tr>
-               <td>Classes:</td>
-               <td> <textarea name = "class" rows = "5" cols = "40"></textarea></td>
+               <td>Allergies:</td>
+               <td> <textarea name = "allergies" rows = "5" cols = "40"></textarea></td>
             </tr>
-            <br>
+
             <tr>
-               <td>Gender:</td>
+               <td>Class Preference:</td>
                <td>
-                  <input type = "radio" name = "gender" value = "female">Female
-                  <input type = "radio" name = "gender" value = "male">Male
-                  <span class = "error">* <?php echo $genderErr;?></span>
+                  <input type = "radio" name = "time" value = "morning">Morning
+                  <input type = "radio" name = "time" value = "afternoon">Afternoon
+                  <span class = "error">* <?php echo $timeErr;?></span>
                </td>
             </tr>
-            <br>
+
             <tr>
-               <td>Select:</td>
+               <td>Food Preferences:</td>
                <td>
-                  <select name = "subject[]" size = "4" multiple>
-                     <option value = "Android">Android</option>
-                     <option value = "Java">Java</option>
-                     <option value = "C#">C#</option>
-                     <option value = "Data Base">Data Base</option>
-                     <option value = "Hadoop">Hadoop</option>
-                     <option value = "VB script">VB script</option>
+                  <select name = "food[]" size = "4" multiple>
+                     <option value = "Anything">Anything</option>
+                     <option value = "Gluten Free">Gluten Free</option>
+                     <option value = "Dairy Free">Dairy Free</option>
+                     <option value = "Nut Free">Nut Free</option>
+                     <option value = "Egg Free">Egg Free</option>
+                     <option value = "Vegetarian">Vegetarian</option>
+                     <option value = "Vegan">Vegan</option>
                   </select>
+                  <span class = "error">* <?php echo $foodErr;?></span>
                </td>
             </tr>
-            <br>
+
+            <tr>
+              <td>Terms:</td>
+              <td>
+              <p>You agree to try and be your happiest without any unnatural substances.</p>
+              </td>
+            </tr>
+
             <tr>
                <td>Agree</td>
-               <td><input type = "checkbox" name = "checked" value = "1"></td>
-               <?php if(!isset($_POST['checked'])){ ?>
-               <span class = "error">* <?php echo "You must agree to terms";?></span>
-               <?php } ?>
+               <td>
+                 <input type = "checkbox" name = "checked" value = "1">
+                 <span class = "error">* <?php echo $termsErr;?></span>
+              </td>
+
             </tr>
-            <br>
+
             <tr>
                <td>
                   <input type = "submit" name = "submit" value = "Submit">
@@ -127,6 +143,7 @@
 
          </table>
       </form>
+    </div>
 
       <?php
 
@@ -135,12 +152,13 @@
          echo "<h2>You gave the following values:</h2>";
          echo ("<p>Your name is $name</p>");
          echo ("<p>Your email address is $email</p>");
-         echo ("<p>Your class time at $course</p>");
-         echo ("<p>Your class info $class </p>");
-         echo ("<p>Your gender is $gender</p>");
-
-         for($i = 0; $i < count($subject); $i++) {
-            echo($subject[$i] . " ");
+         echo ("<p>Your preferred name is $prefname</p>");
+         echo ("<p>Your allergies: $allergies </p>");
+         echo ("<p>Your class time preference is $time</p>");
+         echo ("<p>Your food preference: ");
+         for($i = 0; $i < count($food); $i++) {
+            echo($food[$i] . " </p>");
          }
+         echo("<h3>We will get back to you with some dates that match your preferences shortly</h3>");
        }
       ?>

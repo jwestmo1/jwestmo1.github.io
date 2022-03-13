@@ -393,3 +393,8 @@ nav a:hover, .dropdown:hover .dropbtn {
   text-align: center;
   color: #52F4D1;
 }
+
+.container {
+  width: 500px;
+  clear: both;
+}
