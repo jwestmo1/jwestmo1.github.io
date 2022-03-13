@@ -17,5 +17,8 @@
     </li>
   <li class="toc_li">
     <a href="?p=web250_everythingform.php">Everything Form</a>
+  </li>
+  <li class="toc_li">
+    <a href="?p=web250_demonstrate.php">Demonstrate Form</a>
     </li
 </ol>

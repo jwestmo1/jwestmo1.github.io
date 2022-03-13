@@ -5,6 +5,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<title>Jen Westmoreland - Web 250 - The Quokka's Guide to Happiness</title>
 	<link rel="stylesheet" type="text/css" href="styles/styles.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -30,6 +31,7 @@
 			<a href="?p=samsusedcars/samsusedcars.html">Car Guide</a>
 			<a href="?p=web250_oneFormTwoForm.php">One Form</a>
       <a href="?p=web250_everythingform.php">Everything Form</a>
+      <a href="?p=web250_demonstrate.php">Demonstrate</a>
 		</nav>
 
 	</header>
