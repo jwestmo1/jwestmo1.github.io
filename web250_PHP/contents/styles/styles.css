@@ -398,3 +398,7 @@ nav a:hover, .dropdown:hover .dropbtn {
   width: 500px;
   clear: both;
 }
+
+.figure {
+  float: none !important;
+}
