@@ -9,8 +9,13 @@
   </p>
   <p><?php echo date('Y')?> - Made with ❤️ by East-Less-Sea Designs</p>
 
-<a href="http://validator.w3.org/check?uri=referer" id="validation_link">Validate HTML</a>
-  <a href="https://jigsaw.w3.org/css-validator/check/referer?uri=" id="validation_link">Validate CSS</a>
+  <a href="https://validator.w3.org/check?uri=" id="validation_link">Validate HTML</a>
+  	<a href="https://jigsaw.w3.org/css-validator/check/referer?uri=" id="validation_link">Validate CSS</a>
+
+  	<script>
+  		document.getElementById("validation_link_html").setAttribute("href", "https://validator.w3.org/check?uri=" + location.href);
+  		document.getElementById("validation_link_css").setAttribute("href", "https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
+  	</script>
 
 
 </footer>
