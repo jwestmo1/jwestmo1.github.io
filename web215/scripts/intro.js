@@ -12,8 +12,16 @@ function getData() {
   var courses = "Courses I'm Taking, and Why: " + document.getElementById('courses').value;
   var funnyInteresting = "Funny/Interesting Item About Yourself: " + document.getElementById('funnyInteresting').value;
   var share = "I'd Also Like to Share: " + document.getElementById('share').value;
-  var prefer = "You prefer to visit the" + document.querySelector('input[name="prefer"]:checked').value;
+  var prefer = document.querySelector('input[name="prefer"]:checked').value;
+    let preference;
+    for (var prefer of prefer) {
+      if (prefer.checked){
+        preference = prefer.value;
+        break;
+      }
+    }
 
+  prefer = "You prefer the" + preference;
   //var design  = document.querySelectorAll('input[name="choices"]:checked');
   //  var choices = [];
   //  design.forEach((checkbox) => {
