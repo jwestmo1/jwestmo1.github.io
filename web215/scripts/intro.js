@@ -1,32 +1,31 @@
-function getData() {
-  var firstName = document.getElementById('firstName').value;
-  var lastName = document.getElementById('lastName').value;
+let firstName = document.getElementById('firstName').value;
+let lastName = document.getElementById('lastName').value;
 
-  document.getElementById("greeting").textContent = "Welcome to the Jolly Wallaby Jen Joint, " + firstName + " " + lastName + "!";
+document.getElementById("greeting").textContent = "Welcome to the Jolly Wallaby Jen Joint, " + firstName + " " + lastName + "!";
 
-  var personalBackground = "Personal Background: " + document.getElementById('personalBackground').value;
-  var professionalBackground = "Professional Background: " + document.getElementById('professionalBackground').value;
-  var academicBackground = "Academic Background: " + document.getElementById('academicBackground').value;
-  var backgroundInThisSubject = "Background in this Subject: " + document.getElementById('backgroundInThisSubject').value;
-  var computerPlatform = "Primary Computer Platform: " + document.getElementById('computerPlatform').value;
-  var courses = "Courses I'm Taking, and Why: " + document.getElementById('courses').value;
-  var funnyInteresting = "Funny/Interesting Item About Yourself: " + document.getElementById('funnyInteresting').value;
-  var share = "I'd Also Like to Share: " + document.getElementById('share').value;
+let personalBackground = "Personal Background: " + document.getElementById('personalBackground').value;
+let professionalBackground = "Professional Background: " + document.getElementById('professionalBackground').value;
+let academicBackground = "Academic Background: " + document.getElementById('academicBackground').value;
+let backgroundInThisSubject = "Background in this Subject: " + document.getElementById('backgroundInThisSubject').value;
+let computerPlatform = "Primary Computer Platform: " + document.getElementById('computerPlatform').value;
+let courses = "Courses I'm Taking, and Why: " + document.getElementById('courses').value;
+let funnyInteresting = "Funny/Interesting Item About Yourself: " + document.getElementById('funnyInteresting').value;
+let share = "I'd Also Like to Share: " + document.getElementById('share').value;
 
-  let getSelectedValue = document.querySelector( 'input[name="prefer"]:checked');
-      if(getSelectedValue != null) {
-        var prefer = ("You prefer the " + getSelectedValue.value);
-      }
+let getSelectedValue = document.querySelector( 'input[name="prefer"]:checked');
+    if(getSelectedValue != null) {
+      var prefer = ("You prefer the " + getSelectedValue.value);
+    }
 
-  //var design  = document.querySelectorAll('input[name="choices"]:checked');
-  //  var choices = [];
-  //  design.forEach((checkbox) => {
-  //      choices.push(checkbox.value);
-  //   });
+//var design  = document.querySelectorAll('input[name="choices"]:checked');
+//  var choices = [];
+//  design.forEach((checkbox) => {
+//      choices.push(checkbox.value);
+//   });
 
-  let formData = [personalBackground, professionalBackground, academicBackground, backgroundInThisSubject, computerPlatform, courses, funnyInteresting, share, prefer];
+let formData = [personalBackground, professionalBackground, academicBackground, backgroundInThisSubject, computerPlatform, courses, funnyInteresting, share, prefer];
 
-  showData(formData);
+showData(formData);
 }
 
 
