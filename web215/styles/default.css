@@ -165,9 +165,11 @@ figcaption {
   color: #E5A157;
 }
 
-figure {
+.picMain {
   float: right;
 }
+
+
 
 /* Footer */
 footer a:visited {
@@ -201,9 +203,7 @@ footer a {
   padding: 0 15px
 }
 
-.jspic {
-  float: none !important;
-}
+
 
 /* Navbar */
 /* Navbar container */
