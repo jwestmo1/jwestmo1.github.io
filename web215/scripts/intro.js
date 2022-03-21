@@ -1,9 +1,7 @@
 function getData() {
   let firstName = document.getElementById('firstName').value;
   let lastName = document.getElementById('lastName').value;
-
-  document.getElementById("greeting").textContent = "Welcome to the Jolly Wallaby Jen Joint, " + firstName + " " + lastName + "!";
-
+  let fullName = "Name: " +firstName + lastName;
   let personalBackground = "Personal Background: " + document.getElementById('personalBackground').value;
   let professionalBackground = "Professional Background: " + document.getElementById('professionalBackground').value;
   let academicBackground = "Academic Background: " + document.getElementById('academicBackground').value;
@@ -12,28 +10,27 @@ function getData() {
   let courses = "Courses I'm Taking, and Why: " + document.getElementById('courses').value;
   let funnyInteresting = "Funny/Interesting Item About Yourself: " + document.getElementById('funnyInteresting').value;
   let share = "I'd Also Like to Share: " + document.getElementById('share').value;
-  let formData = [personalBackground, professionalBackground, academicBackground, backgroundInThisSubject, computerPlatform, courses, funnyInteresting, share];
 
   let getSelectedValue = document.querySelector( 'input[name="prefer"]:checked');
       if(getSelectedValue != null) {
         var prefer = ("You prefer the " + getSelectedValue.value);
   }
-
+  let formData = [fullName, personalBackground, professionalBackground, academicBackground, backgroundInThisSubject, computerPlatform, courses, funnyInteresting, share, prefer];
 //var design  = document.querySelectorAll('input[name="choices"]:checked');
 //  var choices = [];
 //  design.forEach((checkbox) => {
 //      choices.push(checkbox.value);
 //   });
 
-let allData = [formData, prefer]
 
-showData(allData);
+
+showData(formData);
 }
 
 
-function showData(allData) {
+function showData(formData) {
 
-  for (let i = 0; i < allData.length; i++) {
+  for (let i = 0; i < formData.length; i++) {
     //creates new element & stores in variable
     var newListNum = document.createElement('li');
 
