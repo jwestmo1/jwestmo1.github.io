@@ -11,6 +11,7 @@ let computerPlatform = "Primary Computer Platform: " + document.getElementById('
 let courses = "Courses I'm Taking, and Why: " + document.getElementById('courses').value;
 let funnyInteresting = "Funny/Interesting Item About Yourself: " + document.getElementById('funnyInteresting').value;
 let share = "I'd Also Like to Share: " + document.getElementById('share').value;
+let formData = [personalBackground, professionalBackground, academicBackground, backgroundInThisSubject, computerPlatform, courses, funnyInteresting, share];
 
 let getSelectedValue = document.querySelector( 'input[name="prefer"]:checked');
     if(getSelectedValue != null) {
@@ -23,15 +24,15 @@ let getSelectedValue = document.querySelector( 'input[name="prefer"]:checked');
 //      choices.push(checkbox.value);
 //   });
 
-let formData = [personalBackground, professionalBackground, academicBackground, backgroundInThisSubject, computerPlatform, courses, funnyInteresting, share, prefer];
+let allData = [formData, prefer]
 
-showData(formData);
+showData(allData);
 }
 
 
-function showData(formData) {
+function showData(allData) {
 
-  for (let i = 0; i < formData.length; i++) {
+  for (let i = 0; i < allData.length; i++) {
     //creates new element & stores in variable
     var newListNum = document.createElement('li');
 
