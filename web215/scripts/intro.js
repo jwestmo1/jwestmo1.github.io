@@ -16,9 +16,8 @@ function getData() {
   var getSelectedValue = document.querySelector( 'input[name="prefer"]:checked');
       if(getSelectedValue != null) {
         var prefer = ("You prefer the " + getSelectedValue.value);
-}  
+      }  
 
-  prefer = "You prefer the" + ${preference};
   //var design  = document.querySelectorAll('input[name="choices"]:checked');
   //  var choices = [];
   //  design.forEach((checkbox) => {
