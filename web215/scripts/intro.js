@@ -1,7 +1,7 @@
 function getData() {
   let firstName = document.getElementById('firstName').value;
   let lastName = document.getElementById('lastName').value;
-  let fullName = "Name: " +firstName + lastName;
+  let fullName = "Name: " + firstName + " " + lastName;
   let personalBackground = "Personal Background: " + document.getElementById('personalBackground').value;
   let professionalBackground = "Professional Background: " + document.getElementById('professionalBackground').value;
   let academicBackground = "Academic Background: " + document.getElementById('academicBackground').value;
@@ -11,16 +11,27 @@ function getData() {
   let funnyInteresting = "Funny/Interesting Item About Yourself: " + document.getElementById('funnyInteresting').value;
   let share = "I'd Also Like to Share: " + document.getElementById('share').value;
 
+  //Radio buttons
   let getSelectedValue = document.querySelector( 'input[name="prefer"]:checked');
       if(getSelectedValue != null) {
         var prefer = ("You prefer the " + getSelectedValue.value);
   }
-  let formData = [fullName, personalBackground, professionalBackground, academicBackground, backgroundInThisSubject, computerPlatform, courses, funnyInteresting, share, prefer];
-//var design  = document.querySelectorAll('input[name="choices"]:checked');
-//  var choices = [];
-//  design.forEach((checkbox) => {
-//      choices.push(checkbox.value);
-//   });
+
+
+  //Checkboxes
+  let markedCheckbox = document.querySelectorAll('input[name="choices"]:checked');;
+  let output = [];
+  markedCheckbox.forEach((checkbox) => {
+    output.push(checkbox.value)
+
+  });
+  var finalChecks = ("You are interested in: " + output);
+
+
+  //Send Data on
+  let formData = [fullName, personalBackground, professionalBackground, academicBackground, backgroundInThisSubject, computerPlatform, courses, funnyInteresting, share, prefer, finalChecks];
+
+
 
 
 
