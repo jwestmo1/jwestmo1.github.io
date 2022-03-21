@@ -21,7 +21,7 @@ function getData() {
       }
     }
 
-  prefer = "You prefer the" + preference;
+  prefer = "You prefer the" + ${preference};
   //var design  = document.querySelectorAll('input[name="choices"]:checked');
   //  var choices = [];
   //  design.forEach((checkbox) => {
