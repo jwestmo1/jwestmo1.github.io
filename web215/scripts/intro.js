@@ -64,7 +64,7 @@ function showData(formData) {
 
   inputs.forEach(input => {
     input.value = '';
-
+    }
   }
 
 }
