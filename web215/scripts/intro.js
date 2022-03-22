@@ -40,8 +40,8 @@ showData(formData);
 
 
 function showData(formData) {
-  var listoutput = document.querySelectorAll('li');
-  Array.from(listoutput).forEach((li) => li.remove())
+  var formData = document.querySelectorAll('li');
+  Array.from(formData).forEach((li) => li.remove())
 
   for (let i = 0; i < formData.length; i++) {
     //creates new element & stores in variable
