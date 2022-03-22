@@ -40,7 +40,7 @@ showData(formData);
 
 
 function showData(formData) {
-  var formData = document.querySelectorAll('li');
+  formData = document.querySelectorAll('li');
   Array.from(formData).forEach((li) => li.remove())
 
   for (let i = 0; i < formData.length; i++) {
