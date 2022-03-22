@@ -141,6 +141,12 @@
                </td>
             </tr>
 
+            <tr>
+               <td>
+                  <input type="submit" value="Reset  " name="reset">
+               </td>
+            </tr>
+
          </table>
       </form>
     </div>

@@ -148,6 +148,11 @@ li {
   justify-content: center;
 }
 
+.stack {
+
+  display: table-row;
+}
+
 label {
   padding: 5px 0
 }
@@ -169,7 +174,7 @@ figcaption {
   color: #B83939;
 }
 
-figure {
+.picMain {
   float: right;
 }
 

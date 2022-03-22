@@ -20,5 +20,8 @@
   </li>
   <li class="toc_li">
     <a href="?p=web250_demonstrate.php">Demonstrate Form</a>
-    </li
+  </li>
+  <li class="toc_li">
+    <a href="?p=web250_dynamize.php">Dynamize</a>
+  </li>
 </ol>

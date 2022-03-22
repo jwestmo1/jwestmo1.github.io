@@ -1,6 +1,6 @@
 		<h2>Introduction</h2>
 		<figure>
-			<img src="images/jenPicSm200x200.png" alt="picture of Jen">
+			<img class="picMain" src="images/jenPicSm200x200.png" alt="picture of Jen">
 			<figcaption>Jen at Hunter Mountain, NY</figcaption>
 		</figure>
 
