@@ -25,7 +25,7 @@ function getData() {
     output.push(checkbox.value)
 
   });
-  var finalChecks = ("You are interested in: " + output);
+  var finalChecks = ("You are interested in: " + output + " ");
 
 
   //Send Data on
