@@ -22,10 +22,10 @@ function getData() {
   let markedCheckbox = document.querySelectorAll('input[name="choices"]:checked');;
   let output = [];
   markedCheckbox.forEach((checkbox) => {
-    output.push(checkbox.value)
+    output.push(checkbox.value + ' ')
 
   });
-  var finalChecks = ("You are interested in: " + output + " ");
+  var finalChecks = ("You are interested in: " + output + ' ');
 
 
   //Send Data on
