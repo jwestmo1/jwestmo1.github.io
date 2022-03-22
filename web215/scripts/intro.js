@@ -40,10 +40,7 @@ showData(formData);
 
 
 function showData(formData) {
-  clearLi = document.querySelectorAll('li');
-  while(clearLi.length > 0) {
-    clearLi.pop();
-  }
+
   //Array.from(clearLi).forEach((li) => li.remove())
 
 
@@ -63,7 +60,10 @@ function showData(formData) {
     //insert new element in correct position
     position.appendChild(newListNum);
 
-
+  clearLi = document.querySelectorAll('li');
+  while(clearLi.length > 0) {
+    clearLi.pop();
+  }
 
   }
 
