@@ -34,8 +34,15 @@ function getData() {
 
 
 
-
+clearLi();
 showData(formData);
+}
+
+function clearLi() {
+  clearLi = document.querySelectorAll('li');
+  while(clearLi.length > 0) {
+    clearLi.pop();
+  }
 }
 
 
@@ -60,9 +67,6 @@ function showData(formData) {
     //insert new element in correct position
     position.appendChild(newListNum);
 
-  clearLi = document.querySelectorAll('li');
-  while(clearLi.length > 0) {
-    clearLi.pop();
   }
 
   }
