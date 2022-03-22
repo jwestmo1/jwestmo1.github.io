@@ -40,8 +40,9 @@ showData(formData);
 
 
 function showData(formData) {
-  clearLi = document.querySelectorAll('li');
-  Array.from(clearLi).forEach((li) => li.remove())
+  //clearLi = document.querySelectorAll('li');
+  //Array.from(clearLi).forEach((li) => li.remove())
+
 
   for (let i = 0; i < formData.length; i++) {
     //creates new element & stores in variable
@@ -58,6 +59,13 @@ function showData(formData) {
 
     //insert new element in correct position
     position.appendChild(newListNum);
+
+  const inputs = document.querySelectorAll('fullName, personalBackground,
+  professionalBackground, academicBackground, backgroundInThisSubject,
+  computerPlatform, courses, funnyInteresting, share, prefer, finalChecks');
+
+  inputs.forEach(input => {
+    input.value = '';
 
   }
 
