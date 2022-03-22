@@ -34,22 +34,16 @@ function getData() {
 
 
 
-clearLi();
-showData(formData);
-}
 
-function clearLi() {
-  clearLi = document.querySelectorAll('li');
-  while(clearLi.length > 0) {
-    clearLi.pop();
-  }
+showData(formData);
 }
 
 
 function showData(formData) {
-
+  clearLi = document.querySelectorAll('li');
   //Array.from(clearLi).forEach((li) => li.remove())
-
+  arrayLi = Array.from(clearLi)
+  arrayLi.pop();
 
   for (let i = 0; i < formData.length; i++) {
     //creates new element & stores in variable
