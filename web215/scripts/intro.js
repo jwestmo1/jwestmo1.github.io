@@ -41,9 +41,9 @@ showData(formData);
 
 function showData(formData) {
   clearLi = document.querySelectorAll('li');
-  inputs.forEach(clearLi => {
-    clearLi.value = '';
-    });
+  while(clearLi.length > 0) {
+    clearLi.pop();
+  }
   //Array.from(clearLi).forEach((li) => li.remove())
 
 
