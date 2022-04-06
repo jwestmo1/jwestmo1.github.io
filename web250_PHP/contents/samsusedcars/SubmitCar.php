@@ -5,6 +5,7 @@
 <body bgcolor="#FFFFFF" text="#000000" >
 
 <?php
+include 'header.php';
 // Capture the values posted to this php program from the text fields
 
 $VIN =  trim( $_REQUEST['VIN']) ;
