@@ -19,6 +19,10 @@ p {
   text-align: left;
 }
 
+footer p {
+  text-align: center;
+}
+
 .grid{
   display: grid;
   color: #E5A157;

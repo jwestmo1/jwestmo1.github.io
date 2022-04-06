@@ -25,7 +25,7 @@
 			</a>
 
 		<nav>
-			<a href="?p=index.php">Introduction</a>
+			<a href="index.php">Home</a>
 			<a href="?p=web250_introduction.php">Introduction</a>
 			<a href="?p=web250_contract.php">Contract</a>
 			<a href="?p=web250_brand.php">Brand Guide</a>
