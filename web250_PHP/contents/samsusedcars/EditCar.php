@@ -5,6 +5,9 @@
 <body bgcolor="#FFFFFF" text="#000000" >
 
 <?php
+include 'header.php';
+echo ("<br />");
+echo ("<br />");
 // Capture the values posted to this php program from the text fields in the form
 
 $VIN = $_REQUEST['VIN'] ;
@@ -50,7 +53,8 @@ else
  echo "Error entering $VIN into database: " . mysql_error()."<br>";
 }
 $mysqli->close();
+include 'footer.php';
 ?>
-<p><a href="ViewCarsWithStyle2.php">View Cars with Edit Links</a></p>
+<!--<p><a href="ViewCarsWithStyle2.php">View Cars with Edit Links</a></p> -->
 </body>
 </html>

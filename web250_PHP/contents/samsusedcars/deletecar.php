@@ -25,7 +25,7 @@ else
 }
 
 $mysqli->close();
-
+include 'footer.php'
 ?>
 
 </body>

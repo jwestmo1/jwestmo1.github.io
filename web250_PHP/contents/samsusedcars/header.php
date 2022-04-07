@@ -36,4 +36,13 @@
 			<a href="http://jwestmo1.infinityfreeapp.com/web250_PHP/contents/index.php?p=web250_dynamize.php">Dynamize</a>
 		</nav>
 
+		<nav>
+			<a href="http://jwestmo1.infinityfreeapp.com/web250_PHP/contents/samsusedcars/formEnterCar.php">Add A Car</a>
+			<a href="http://jwestmo1.infinityfreeapp.com/web250_PHP/contents/samsusedcars/ViewCars.php">View Cars - Basic</a>
+			<a href="http://jwestmo1.infinityfreeapp.com/web250_PHP/contents/samsusedcars/ViewCarsWithStyle.php">View Cars with Style</a>
+			<a href="http://jwestmo1.infinityfreeapp.com/web250_PHP/contents/samsusedcars/ViewCarsWithStyle2.php">View Cars with Edit Links</a>
+			<a href="http://jwestmo1.infinityfreeapp.com/web250_PHP/contents/samsusedcars/ViewCarsAddImage.php">Add Images to Cars</a>
+
+		</nav>
+
 	</header>
