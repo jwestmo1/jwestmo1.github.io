@@ -7,6 +7,8 @@
 <?php
 include 'header.php';
 // Capture the values posted to this php program from the text fields
+echo ("<br />");
+echo ("<br />");
 
 $VIN =  trim( $_REQUEST['VIN']) ;
 $Make = trim( $_REQUEST['Make']) ;

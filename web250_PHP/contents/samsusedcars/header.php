@@ -16,7 +16,7 @@
 				<div class="grid">
 
 					<div class="logo">
-						<img src="images/quokkaClearBkgrdNoWords150x150.png" alt="The Quokka's Guide to Happiness logo" class="logo">
+						<img src="../images/quokkaClearBkgrdNoWords150x150.png" alt="The Quokka's Guide to Happiness logo" class="logo">
 					</div>
 					<div class="name">The Quokka's Guide to Happiness</div>
 					<div class="taglinehead"><em>How to Be Happy No Matter Your Circumstances</em></div>
@@ -25,15 +25,15 @@
 			</a>
 
 		<nav>
-			<a href="index.php">Home</a>
-			<a href="?p=web250_introduction.php">Introduction</a>
-			<a href="?p=web250_contract.php">Contract</a>
-			<a href="?p=web250_brand.php">Brand Guide</a>
-			<a href="?p=samsusedcars/samsusedcars.html">Car Guide</a>
-			<a href="?p=web250_oneFormTwoForm.php">One Form</a>
-      <a href="?p=web250_everythingform.php">Everything Form</a>
-      <a href="?p=web250_demonstrate.php">Demonstrate</a>
-			<a href="?p=web250_dynamize.php">Dynamize</a>
+			<a href="http://jwestmo1.infinityfreeapp.com/web250_PHP/contents/index.php">Home</a>
+			<a href="http://jwestmo1.infinityfreeapp.com/web250_PHP/contents/index.php?p=web250_introduction.php">Introduction</a>
+			<a href="http://jwestmo1.infinityfreeapp.com/web250_PHP/contents/index.php?p=web250_contract.php">Contract</a>
+			<a href="http://jwestmo1.infinityfreeapp.com/web250_PHP/contents/index.php?p=web250_brand.php">Brand Guide</a>
+			<a href="http://jwestmo1.infinityfreeapp.com/web250_PHP/contents/index.php?p=samsusedcars/samsusedcars.html">Car Guide</a>
+			<a href="http://jwestmo1.infinityfreeapp.com/web250_PHP/contents/index.php?p=web250_oneFormTwoForm.php">One Form</a>
+      <a href="http://jwestmo1.infinityfreeapp.com/web250_PHP/contents/index.php?p=web250_everythingform.php">Everything Form</a>
+      <a href="http://jwestmo1.infinityfreeapp.com/web250_PHP/contents/index.php?p=web250_demonstrate.php">Demonstrate</a>
+			<a href="http://jwestmo1.infinityfreeapp.com/web250_PHP/contents/index.php?p=web250_dynamize.php">Dynamize</a>
 		</nav>
 
 	</header>

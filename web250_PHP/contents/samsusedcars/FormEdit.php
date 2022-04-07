@@ -8,6 +8,10 @@
 <h1>Sam's Used Cars
 </h1>
 <?php
+include 'header.php';
+echo ("<br />");
+echo ("<br />");
+
 include 'db.php';
 $vin = $_GET['VIN'];
 $query = "SELECT * FROM inventory WHERE VIN='$vin'";

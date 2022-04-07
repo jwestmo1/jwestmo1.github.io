@@ -5,7 +5,12 @@
 <body background="bg.jpg">
 <h1>Sam's Used Cars</h1>
 <h3>Add Image</h3>
-<?php include 'db.php';
+<?php
+include 'header.php';
+echo ("<br />");
+echo ("<br />");
+
+include 'db.php';
 $vin = $_GET['VIN'];
 $query = "SELECT * FROM inventory WHERE VIN='$vin'";
 /* Try to query the database */
