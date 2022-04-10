@@ -9,8 +9,6 @@
 </head>
 
 <body>
-
-
 	<header>
 			<a href="index.php">
 				<div class="grid">
@@ -20,6 +18,7 @@
 					</div>
 					<div class="name">The Quokka's Guide to Happiness</div>
 					<div class="taglinehead"><em>How to Be Happy No Matter Your Circumstances</em></div>
+
 
 				</div>
 			</a>
@@ -34,6 +33,9 @@
       <a href="?p=web250_everythingform.php">Everything Form</a>
       <a href="?p=web250_demonstrate.php">Demonstrate</a>
 			<a href="?p=web250_dynamize.php">Dynamize</a>
+			<a href=""></a>
+			<a href=""></a>
+			<a href="?p=logout.php">Logout</a>
 		</nav>
 
 	</header>

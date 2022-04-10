@@ -471,3 +471,11 @@ nav a:hover, .dropdown:hover .dropbtn {
 .figure {
   float: none !important;
 }
+
+div.logout {
+  float left !important;
+}
+
+input.but_logout[type="submit"] {
+    background:url(/images/logout.png) no-repeat;"
+}
