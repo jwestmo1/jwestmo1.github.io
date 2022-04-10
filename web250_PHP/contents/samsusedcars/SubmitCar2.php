@@ -99,8 +99,6 @@ $mysqli->close();
 ?>
 <?php
 
-
-//Add edit and delete form 
 echo ("<br />");
 echo ("<br />");
   ?>
